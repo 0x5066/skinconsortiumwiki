@@ -1,0 +1,942 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="keywords" content="XML GUI Objects,Appendix: Action List,Appendix: ConfigAttrib,Appendix: Cursors,XML GuiObject,Animationlayer" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="ScWiki (English)" />
+		<title>XML GUI Objects - ScWiki</title>
+		<style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "/skins/monobook/main.css?42b"; /*]]>*/</style>
+		<link rel="stylesheet" type="text/css" media="print" href="/skins/common/commonPrint.css?42b" />
+		<link rel="stylesheet" type="text/css" media="handheld" href="/skins/monobook/handheld.css?42b" />
+		<!--[if lt IE 5.5000]><style type="text/css">@import "/skins/monobook/IE50Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 5.5000]><style type="text/css">@import "/skins/monobook/IE55Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 6]><style type="text/css">@import "/skins/monobook/IE60Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 7]><style type="text/css">@import "/skins/monobook/IE70Fixes.css?42b";</style><![endif]-->
+		<!--[if lt IE 7]><script type="text/javascript" src="/skins/common/IEFixes.js?42b"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+		
+		<script type= "text/javascript">/*<![CDATA[*/
+var skin = "monobook";
+var stylepath = "/skins";
+var wgArticlePath = "/index.php?title=$1";
+var wgScriptPath = "";
+var wgServer = "http://wiki.skinconsortium.com";
+var wgCanonicalNamespace = "";
+var wgCanonicalSpecialPageName = false;
+var wgNamespaceNumber = 0;
+var wgPageName = "XML_GUI_Objects";
+var wgTitle = "XML GUI Objects";
+var wgArticleId = "71";
+var wgIsArticle = true;
+var wgUserName = null;
+var wgUserLanguage = "en";
+var wgContentLanguage = "en";
+var wgBreakFrames = false;
+var wgCurRevisionId = "488";
+/*]]>*/</script>
+                
+		<script type="text/javascript" src="/skins/common/wikibits.js?42b"><!-- wikibits js --></script>
+		<script type="text/javascript" src="/index.php?title=-&amp;action=raw&amp;gen=js"><!-- site js --></script>
+		<style type="text/css">/*<![CDATA[*/
+@import "/index.php?title=MediaWiki:Common.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=MediaWiki:Monobook.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=-&action=raw&gen=css&maxage=18000";
+/*]]>*/</style>
+		<!-- Head Scripts -->
+			</head>
+<body  class="mediawiki ns-0 ltr page-XML_GUI_Objects">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<h1 class="firstHeading">XML GUI Objects</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From ScWiki</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<table id="toc" class="toc" summary="Contents"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1"><a href="#GuiObject_.28Global_params.29"><span class="tocnumber">1</span> <span class="toctext">GuiObject (Global params)</span></a></li>
+<li class="toclevel-1"><a href="#.3Cbutton.2F.3E_.26_.3Ctogglebutton.2F.3E"><span class="tocnumber">2</span> <span class="toctext">&lt;button/&gt; &amp; &lt;togglebutton/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Cnstatesbutton.2F.3E"><span class="tocnumber">3</span> <span class="toctext">&lt;nstatesbutton/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Cimages.2F.3E"><span class="tocnumber">4</span> <span class="toctext">&lt;images/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3CPlaylistDirectory.2F.3E"><span class="tocnumber">5</span> <span class="toctext">&lt;PlaylistDirectory/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3CAlbumArt.2F.3E"><span class="tocnumber">6</span> <span class="toctext">&lt;AlbumArt/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Cgrid.2F.3E"><span class="tocnumber">7</span> <span class="toctext">&lt;grid/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3CWinamp:Browser.2F.3E"><span class="tocnumber">8</span> <span class="toctext">&lt;Winamp:Browser/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Cbrowser.2F.3E"><span class="tocnumber">9</span> <span class="toctext">&lt;browser/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3CWasabi:Frame.2F.3E"><span class="tocnumber">10</span> <span class="toctext">&lt;Wasabi:Frame/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3CWasabi:CheckBox.2F.3E"><span class="tocnumber">11</span> <span class="toctext">&lt;Wasabi:CheckBox/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3CWasabi:DropDownList.2F.3E"><span class="tocnumber">12</span> <span class="toctext">&lt;Wasabi:DropDownList/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3CWasabi:ComboBox.2F.3E"><span class="tocnumber">13</span> <span class="toctext">&lt;Wasabi:ComboBox/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3CWasabi:HistoryEditBox.2F.3E"><span class="tocnumber">14</span> <span class="toctext">&lt;Wasabi:HistoryEditBox/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Ccomponentbucket.2F.3E"><span class="tocnumber">15</span> <span class="toctext">&lt;componentbucket/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Ccustomobject.2F.3E"><span class="tocnumber">16</span> <span class="toctext">&lt;customobject/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Cedit.2F.3E_.26_.3CWasabi:EditBox.2F.3E"><span class="tocnumber">17</span> <span class="toctext">&lt;edit/&gt; &amp; &lt;Wasabi:EditBox/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Cgrid.2F.3E_2"><span class="tocnumber">18</span> <span class="toctext">&lt;grid/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Cgroup.2F.3E"><span class="tocnumber">19</span> <span class="toctext">&lt;group/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Cgrouplist.2F.3E"><span class="tocnumber">20</span> <span class="toctext">&lt;grouplist/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Clayer.2F.3E"><span class="tocnumber">21</span> <span class="toctext">&lt;layer/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Canimatedlayer.2F.3E"><span class="tocnumber">22</span> <span class="toctext">&lt;animatedlayer/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Clayoutstatus.2F.3E"><span class="tocnumber">23</span> <span class="toctext">&lt;layoutstatus/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Clist.2F.3E"><span class="tocnumber">24</span> <span class="toctext">&lt;list/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Cmouseredir.2F.3E"><span class="tocnumber">25</span> <span class="toctext">&lt;mouseredir/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3CWasabi:RadioGroup.2F.3E"><span class="tocnumber">26</span> <span class="toctext">&lt;Wasabi:RadioGroup/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Crect.2F.3E"><span class="tocnumber">27</span> <span class="toctext">&lt;rect/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Cscript.2F.3E"><span class="tocnumber">28</span> <span class="toctext">&lt;script/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Cslider.2F.3E_.26_.3CWasabi:HSlider.2F.3E_.26_.3CWasabi:VSlider.2F.3E"><span class="tocnumber">29</span> <span class="toctext">&lt;slider/&gt; &amp; &lt;Wasabi:HSlider/&gt; &amp; &lt;Wasabi:VSlider/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Csnappoint.2F.3E"><span class="tocnumber">30</span> <span class="toctext">&lt;snappoint/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3CWasabi:TabSheet.2F.3E"><span class="tocnumber">31</span> <span class="toctext">&lt;Wasabi:TabSheet/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Ctext.2F.3E_.26_.3CWasabi:Text.2F.3E"><span class="tocnumber">32</span> <span class="toctext">&lt;text/&gt; &amp; &lt;Wasabi:Text/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3CWasabi:TitleBox.2F.3E"><span class="tocnumber">33</span> <span class="toctext">&lt;Wasabi:TitleBox/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3CWasabi:Titlebar.2F.3E"><span class="tocnumber">34</span> <span class="toctext">&lt;Wasabi:Titlebar/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Ctree.2F.3E"><span class="tocnumber">35</span> <span class="toctext">&lt;tree/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Cvis.2F.3E"><span class="tocnumber">36</span> <span class="toctext">&lt;vis/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Ceqvis.2F.3E"><span class="tocnumber">37</span> <span class="toctext">&lt;eqvis/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Cgradient.2F.3E"><span class="tocnumber">38</span> <span class="toctext">&lt;gradient/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3CWasabi:StandardFrame:Status.2F.3E"><span class="tocnumber">39</span> <span class="toctext">&lt;Wasabi:StandardFrame:Status/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3CWasabi:StandardFrame:NoStatus.2F.3E"><span class="tocnumber">40</span> <span class="toctext">&lt;Wasabi:StandardFrame:NoStatus/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3CWasabi:StandardFrame:Modal.2F.3E"><span class="tocnumber">41</span> <span class="toctext">&lt;Wasabi:StandardFrame:Modal/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3CWasabi:StandardFrame:Static.2F.3E"><span class="tocnumber">42</span> <span class="toctext">&lt;Wasabi:StandardFrame:Static/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Cwndholder.2F.3E"><span class="tocnumber">43</span> <span class="toctext">&lt;wndholder/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Cobjdirview.2F.3E"><span class="tocnumber">44</span> <span class="toctext">&lt;objdirview/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3CWasabi:PathPicker.2F.3E"><span class="tocnumber">45</span> <span class="toctext">&lt;Wasabi:PathPicker/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Cquerydrag.2F.3E"><span class="tocnumber">46</span> <span class="toctext">&lt;querydrag/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Cqueryline.2F.3E"><span class="tocnumber">47</span> <span class="toctext">&lt;queryline/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Cqueryresults.2F.3E"><span class="tocnumber">48</span> <span class="toctext">&lt;queryresults/&gt;</span></a></li>
+</ul>
+</td></tr></table><script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+<a name="GuiObject_.28Global_params.29"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=1" title="Edit section: GuiObject (Global params)">edit</a>]</span> <span class="mw-headline"><a href="/index.php?title=XML_GuiObject" title="XML GuiObject">GuiObject (Global params)</a></span></h2>
+<p>All the objects to be discussed in this chapter are GuiObjects.  This means, among other things, all such objects have the same basic set of parameters which are valid for all of them.  All GuiObjects are objects that live with a set of spatial coordinates within a groupdef (or layout).  A button, a piece of text, a flat bitmap image, a tree of items, and an edit box would all be different kinds of GuiObjects, and all of the parameters listed here work on all of them.
+</p>
+<ul><li> <b>alpha</b> - (int) An integer [0,255] specifying the alpha blend mode of the object (0 is transparent, 255 is opaque).  Default is 255.
+</li><li> <b>activealpha</b> - (int) A different alpha value [0,255] for the object in its active state.
+</li><li> <b>inactivealpha</b> - (int) A different alpha value [0,255] for the object in its inactive state (if you set both activealpha and inactivealpha, it is meaningless to set alpha).
+</li><li> <b>cursor</b> - (id) The id of the cursor element to be displayed when the mouse is over this object. You can also use the system cursors. A list can be found here: <b><a href="/index.php?title=Appendix:_Cursors" title="Appendix: Cursors">Appendix: Cursors</a></b>
+</li><li> <b>tooltip</b> - (str) A human readable string to display as a tooltip for when the mouse is hovered over this object.
+</li><li> <b>move</b> - (bool) Setting this flag causes any dragging of this object to actually drag the entire layout within which the object resides.
+</li><li> <b>renderbasetexture</b> - (bool) A flag to tell the system to always use the system's base texture as the background of this object.
+</li><li> <b>cfgattrib</b> - (str) A configattrib string assigned to this GuiObject. Here is a list of a few: <b><a href="/index.php?title=Appendix:_ConfigAttrib" title="Appendix: ConfigAttrib">Appendix: ConfigAttrib</a></b>
+</li><li> <b>visible</b> - (bool) Whether or not the object should be displayed in its group or layout.
+</li><li> <b>x</b> - (int) The X position of the object in its group or layout.
+</li><li> <b>y</b> - (int) The Y position of the object in its group or layout.
+</li><li> <b>w</b> - (int) The width of the object in its group or layout.
+</li><li> <b>h</b> - (int) The height of the object in its group or layout.
+</li><li> <b>relatx</b> - (int) This [0,2] integer determines if the X position should be calculated by normal ("0"), relative ("1") or proportional ("2") units.  See below.
+</li><li> <b>relaty</b> - (int) This [0,2] integer determines if the Y position should be calculated by normal ("0"), relative ("1") or proportional ("2") units.  See below.
+</li><li> <b>relatw</b> - (int) This [0,2] integer determines if the width should be calculated by normal ("0"), relative ("1") or proportional ("2") units.  See below.
+</li><li> <b>relath</b> - (int) This [0,2] integer determines if the height should be calculated by normal ("0"), relative ("1") or proportional ("2") units.  See below.
+</li><li> <b>fitparent</b> - (bool) This parameter is used instead of x;y;w;h parameters and means that the object covers all the area of the parent object.
+</li><li> <b>x1</b> - (int)  The X position of the left edge of the object in its group or layout.  Only works inside definitions with design_w parameters set.
+</li><li> <b>y1</b> - (int) The Y position of the top edge of the object in its group or layout.  Only works inside definitions with design_h parameters set.
+</li><li> <b>x2</b> - (int)  The X position of the right edge of the object in its group or layout.  Only works inside definitions with design_w parameters set.
+</li><li> <b>y2</b> - (int) The Y position of the bottom edge of the object in its group or layout.  Only works inside definitions with design_h parameters set.
+</li><li> <b>anchor</b> - (str) A list of one or more of the following keywords, delimited by the pipe (|) character: "top|bottom|left|right" these anchors work with x1/y1/x2/y2 positioning to fix the edge of the object its distance from the edges of the group or layout which contains it.
+</li><li> <b>sysmetricsx</b> - (bool) This flag will cause this object to be resized by having its X position multiplied by the OS scalar coefficient.
+</li><li> <b>sysmetricsy</b> - (bool) This flag will cause this object to be resized by having its Y position multiplied by the OS scalar coefficient. 
+</li><li> <b>sysmetricsw</b> - (bool) This flag will cause this object to be resized by having its width multiplied by the OS scalar coefficient.
+</li><li> <b>sysmetricsh</b> - (bool) This flag will cause this object to be resized by having its height multiplied by the OS scalar coefficient.
+</li><li> <b>rectrgn</b> - (bool) Setting this flag causes the engine to ignore the object's region for handling "mouse over object" detection and only use the bounding rectangle. 
+</li><li> <b>regionop</b> - (int) An integer enumeration [-2,1] for what kind of region-operation to perform with this object's calculated region against its parent's region.  See below for more information. 
+</li><li> <b>sysregion</b> - (int) Param alias for regionop.
+</li><li> <b>wantfocus</b> - (bool) This flag determines whether or not an object ever gets the focus at all.
+</li><li> <b>focusonclick</b> - (bool)  This flag determines whether or not an object gets the focus when clicked. 
+</li><li> <b>taborder</b> - (int) This value indicates the "tab order" of the object within the group or layout in which it resides.  When the user hits the tab key, the interface focus moves to the next greater object in tab order.  Objects with equal tab order will be ordered in the reverse of their insertion order in XML (last object in is first in default tab order). 
+</li><li> <b>nodblclick</b> - (bool) This flag blocks doubleclick events from being received by this object.
+</li><li> <b>noleftclick</b> - (bool) This flag blocks left click events from being received by this object.
+</li><li> <b>norightclick</b> - (bool) This flag blocks right click events from being received by this object.
+</li><li> <b>nomousemove</b> - (bool) This flag blocks mouse move events from being received by this object.
+</li><li> <b>nocontextmenu</b> - (bool) This flag blocks the main context menu from being displayed for rightclick.
+</li><li> <b>ghost</b> - (bool) This flag causes the object to be transparent to all user interface events such that all the mouse messages pass to the object(s) visibly underneath it.
+</li><li> <b>notify</b>(0-9) - (str) A string to be used as a parameter to the onNotify event for the object upon instantiation.  The notify strings 0-9 will be sent in order.
+</li><li> <b>droptarget</b> - (id)  The id of an object to which all of this object's drag and drop events will be redirected.
+</li></ul>
+<p><b>Appendixes:</b>
+</p>
+<ul><li><a href="/index.php?title=Appendix:_ConfigAttrib" title="Appendix: ConfigAttrib">ConfigAttrib</a>
+</li><li><a href="/index.php?title=Appendix:_Cursors" title="Appendix: Cursors">Cursors</a>
+</li></ul>
+<a name=".3Cbutton.2F.3E_.26_.3Ctogglebutton.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=2" title="Edit section: &amp;lt;button/&amp;gt; &amp; &amp;lt;togglebutton/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;button/&gt; &amp; &lt;togglebutton/&gt;</span></h2>
+<p>The button is a simple concept in Wasabi - you push it, it activates something.  It can either be used as a substrate for a script (ie: put a script and a button in the same groupdef, and you can handle complex button functionality with the script) or it can be used by itself to launch an action into the system when pressed.  You can implement your own action handlers in code, but some global actions predefined to be handled by the system are also available.
+</p>
+<ul><li> <b>image</b> - (id) The id of the bitmap element to display in its "normal" state. 
+</li><li> <b>downimage</b> - (id) The id of the bitmap element to display when the user is pressing down on the button.
+</li><li> <b>hoverimage</b> - (id) The id of the bitmap element to display when the user is hovering the mouse over the button.
+</li><li> <b>activeimage</b> - (id) The id of the bitmap element to display when the object is in its "active" state (usually only used by togglebutton, but available on the basic button object to allow the user to create extended functionality in script).
+</li><li> <b>text</b> - (str) A string of text to be rendered on top of the button's currrent state image.  In this way, you can create a single button graphic and reuse it to create internationally localizable buttons.
+</li><li> <b>action</b> - (str) The action to fire if the button is clicked (when it enters into its downstate).
+</li><li> <b>param</b> - (str) The param to go with the action fired if the button is clicked.
+</li><li> <b>borders</b> - (bool) Set this flag if you want to be a styled button.
+</li><li> <b>style</b> - (str) Set the style value if you set the borders flag, to tell wasabi what type of button style you want.
+<ul><li> "button_normal" "osbutton_normal" "osbutton_close" "osbutton_minimize" and "osbutton_maximize"
+</li></ul>
+</li><li> <b>retcode</b> - (int) Specifies the "modal return code" for the button.  Only valid with the "endmodal" system action.
+</li><li> <b>cbtarget</b> - (id) The optional "component bucket target" for this button.  Only valid with "cb_next" or "cb_prev" system actions.  A componentbucket is another name for the thinger -- this allows you to have targetted button controls for more than one componentbucket in a user interface.
+</li><li> <b>action_target</b> - (id) This will send the specified action only to the object whose id is listed here.  The param parameter is ignored in this case and this string is sent as the param data for the action.  Most objects don't understand being sent actions (this is an extended functionality), so this won't do anything in most cases.
+</li><li> <b>center_image</b> - (bool) Setting this flag causes the image to be centered against the object rectangle.  This parameter is only important when both borders and an image are specified on a single object. 
+</li></ul>
+<p><b><a href="/index.php?title=Appendix:_Action_List" title="Appendix: Action List">Appendix: Action List</a></b>
+</p>
+<pre>Example:
+&lt;button x="50" y="10" action="VID_FS" image="vis.fs.1" hoverImage="vis.fs.2" downImage="vis.fs.3"/&gt;
+&lt;button x="10" y="40" w="100" h="20" borders="1" style="osbutton_normal" text="Click Here"/&gt;
+</pre>
+<p><br />
+</p>
+<a name=".3Cnstatesbutton.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=3" title="Edit section: &amp;lt;nstatesbutton/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;nstatesbutton/&gt;</span></h2>
+<p>The nstatesbutton is a specialized kind of togglebutton whose purpose is to cycle through a number of different visual states.  The parameters beyond togglebutton that it implements are:
+</p>
+<ul><li> <b>nstates</b> - (int) The number of discrete states in which the object may exist.
+</li><li> <b>cfgvals</b> - (str) A semicolon delimited list of values to represent custom config values for the multiple states.  Default is the current state number.  See below.
+</li></ul>
+<p>The nstatesbutton uses special handling of the image, downimage, hoverimage, and activeimage parameters expressed by the button object (from which this object is derived).  The nstatesbutton will actually append the state number to the four image parameter strings to calculate the bitmap ids to be loaded for the current object state.  Remember, like most everything else in a computer, this "current state value" counts from 0 and is therefore in the range [0, nstates-1].
+</p><p>If the object is bound to a configuration attribute, that attribute will be set with a cfgval every time the nstatesbutton transitions to a new state.  If the cfgvals parameter is not set, the attribute will simply be set with the current state value.  If the cfgvals parameter is set, it will parse the string and set the config attrib with the n'th substring corresponding to the current state value.
+</p><p>The following snippet fully describes two nstatesbutton objects with three states each, one using full images for its visual display, one using themed Wasabi borders with three different state logos:
+</p>
+<pre>&lt;elements&gt;
+	&lt;bitmap id="nimg0"/&gt; 
+	&lt;bitmap id="dimg0"/&gt; 
+	&lt;bitmap id="himg0"/&gt;
+	&lt;bitmap id="nimg1"/&gt; 
+	&lt;bitmap id="dimg1"/&gt; 
+	&lt;bitmap id="himg1"/&gt;
+	&lt;bitmap id="nimg2"/&gt; 
+	&lt;bitmap id="dimg2"/&gt; 
+	&lt;bitmap id="himg2"/&gt;
+	&lt;bitmap id="logo0"/&gt;
+	&lt;bitmap id="logo1"/&gt;
+	&lt;bitmap id="logo2"/&gt;
+&lt;/elements&gt;
+&lt;groupdef id="some.random.groupdef"&gt;
+	&lt;nstatesbutton id="three.freeform.states"
+		nstates="3" cfgvals="one;two;three"
+		image="nimg" downimage="dimg" hoverimage="himg"
+	/&gt;
+	&lt;nstatesbutton id="three.themed.states"
+		nstates="3" image="logo" borders="1" center_image="1"
+	/&gt;
+&lt;/groupdef&gt;
+</pre>
+<p>If the "three.freeform.states" nstatesbutton were assigned to a configattrib, that attribute would be filled with the values "one" "two" and "three" in order.  If the "three.themed.states" were instead assigned to a configattrib, it would be filled with the default values "0" "1" and "2" in order.
+</p><p><br />
+</p>
+<a name=".3Cimages.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=4" title="Edit section: &amp;lt;images/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;images/&gt;</span></h2>
+<p>The images object is object that displays a certain image based on the position of a slider. This object is very similar to <a href="/index.php?title=Animationlayer&amp;action=edit" class="new" title="Animationlayer">Animationlayer</a> except that this animation's current frame will be determined by the position of a slider.  An example of implementation is the old Classic Winamp skins where the volume slider background changes colour from green to red depending on its position (0%-100%). This object is currently under development and not all sliders are supported. Currently only Volume and Panning(Balance) sliders can be used as sources.
+</p>
+<ul><li> <b>images</b> - (id) A bitmap element for the array of images that will be used.
+</li><li> <b>source</b> - (id) Id of the slider that will determine the current animation frame.
+</li><li> <b>imagesspacing</b> - (int) The hight of each animation frame in the bitmap element. This will determine the total number of frames, (300/15=20)
+</li></ul>
+<pre>Example:
+&lt;images source="volume" x="0" y="0" w="68" h="13"
+images="main.volpan.volume" imagesspacing="15"/&gt;
+
+&lt;images source="balance" x="73" y="0" w="38" h="13"
+images="main.volpan.balance" imagesspacing="15"/&gt;
+ 
+&lt;slider id="Volume" action="VOLUME" x="1" y="0" w="68" h="13"
+thumb="main.volpan.thumb" downThumb="main.volpan.thumb.pressed"/&gt;
+
+&lt;slider id="Pan" action="PAN" x="74" y="0" w="38" h="13"
+thumb="main.volpan.thumb" downThumb="main.volpan.thumb.pressed"/&gt;
+</pre>
+<a name=".3CPlaylistDirectory.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=5" title="Edit section: &amp;lt;PlaylistDirectory/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;PlaylistDirectory/&gt;</span></h2>
+<p>The PlaylistDirectory object is simply a list with all the saved playlist from the media library. Please remember that this object is always on top of other objects, so you'll have to hide it via maki if you dont want it to be visible. This object was introduced in Winamp 5.5(skinversion 1.3)
+</p><p><br />
+</p>
+<a name=".3CAlbumArt.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=6" title="Edit section: &amp;lt;AlbumArt/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;AlbumArt/&gt;</span></h2>
+<p>The AlbumArt object is a simple GuiObject that displays a picture of the album cover of the song thats playing in Winamp. Please note that if you want do something to this object in a maki script you'll have to define it as a guiobject and not as a layer.
+</p>
+<ul><li> <b>notfoundImage</b> - (id) A bitmap element that used if Winamp cant find any cover for the song.
+</li><li> <b>align</b> - (str) One of the following three possible strings: "left" "center" "right" -- Default is "left".
+</li><li> <b>valign</b> - (str) One of the following three possible strings: "top" "center" "bottom" -- Default is "top".
+</li><li> <b>source</b> - (str) Path+Filename of file that you want to display in this object.
+</li><li> <b>stretched</b> - (bool) Stretch the albumart to the size of the object.
+</li></ul>
+<a name=".3Cgrid.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=7" title="Edit section: &amp;lt;grid/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;grid/&gt;</span></h2>
+<p>The grid object is a very nice object for creating stretchable images that still look good on the edges.  It is a graphic, like a layer, but unlike layer it is created by applying nine different bitmaps, stretching five of them.  There are, as you might guess, nine parameters
+</p>
+<ul><li> <b>topleft</b> - (id) A bitmap element for the top left section of the grid.
+</li><li> <b>top</b> - (id) A bitmap element for the top middle section of the grid.
+</li><li> <b>topright</b> - (id) A bitmap element for the top right section of the grid.
+</li><li> <b>left</b> - (id) A bitmap element for the middle left section of the grid.
+</li><li> <b>middle</b> - (id) A bitmap element for the center section of the grid.
+</li><li> <b>right</b> - (id) A bitmap element for the middle right section of the grid.
+</li><li> <b>bottomleft</b> - (id) A bitmap element for the bottom left section of the grid.
+</li><li> <b>bottom</b> - (id) A bitmap element for the bottom middle section of the grid.
+</li><li> <b>bottomright</b> - (id) A bitmap element for the bottom right section of the grid. 
+</li></ul>
+<p>Essentially, the given rectangle of the grid is intersected with 2 horizontal and 2 vertical lines.  The topleft, topright, bottomleft, and bottomright bitmap elements will not be resized.  The top, left, middle, right, and bottom bitmap elements, however, will be stretched to make all fit the grid rectangle.  Using intelligently sized bitmap elements is fairly critical for this object.  If you're having trouble, try starting with all of your bitmap elements as equal-sized squares.
+</p>
+<pre>Example:
+&lt;grid x="70" y="25" w="-74" relatw="1" h="20" topleft="main.text.left" top="main.text.center" topright="main.text.right"/&gt;
+</pre>
+<p><br />
+</p>
+<a name=".3CWinamp:Browser.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=8" title="Edit section: &amp;lt;Winamp:Browser/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;Winamp:Browser/&gt;</span></h2>
+<p>This is basically the browser you'll see in the Bento Winamp skin. You'll also need Winamp 5.54 (skinversion 1.34) for it to work.
+</p><p>- <b>home</b> - (str) Url for the default homepage for the browser xui.
+</p>
+<a name=".3Cbrowser.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=9" title="Edit section: &amp;lt;browser/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;browser/&gt;</span></h2>
+<p>The browser object embeds an external browser technology window (such as IE or Mozilla) into the user interface with which you can load and render HTML directly.
+</p>
+<ul><li> <b>url</b> - (str) The url to be displayed.
+</li><li> <b>mainmb</b> - (bool) Setting this flag makes this browser object the "main mini-browser" for the system.
+</li><li> <b>targetname</b> - (str) This allows this browser object to be set as a specific HTML target.
+</li><li> <b>scrollbars</b> - (str) An enumerated string to determine how the system should handle the embedded browser's scrollbars.  See below.
+</li></ul>
+<p>Numerous interfaces in Wasabi refer to or control the "main" mini-browser.  Setting the mainmb flag will cause the last browser object which processed its mainmb param to be the main.  In other words, please don't set this flag on more than one object if you actually care which one is the main.
+Scrollbars are important for big browser windows, but can interfere with the simple rendering of HTML content as part of a Wasabi UI.  To this end, the skinner can control how the scrollbars of the embedded browser are displayed by setting the scrollbars parameter to one of the following four string values: "auto" "never" "always" or "default" - default is to allow the HTML page to specify, all others override.
+</p><p><br />
+</p>
+<a name=".3CWasabi:Frame.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=10" title="Edit section: &amp;lt;Wasabi:Frame/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;Wasabi:Frame/&gt;</span></h2>
+<p>The Wasabi:Frame object is a themed control whose purpose is to provide a movable interface between two rectangular areas, much like the concept of an HTML frame.  Here are its parameters:
+</p>
+<ul><li> <b>orientation</b> - (str) One of the following four string values: "v" "vertical" "h" "horizontal" (Default is vertical).
+</li><li> <b>left</b> - (id) The group to be instantiated in the left or top frame.
+</li><li> <b>right</b> - (id) The group to be instantiated in the right or bottom frame.
+</li><li> <b>top</b> - (id) The group to be instantiated in the left or top frame.
+</li><li> <b>bottom</b> - (id) The group to be instantiated in the right or bottom frame.
+</li><li> <b>from</b> - (str) One of the following string values: "l" "left" "t" "top" or "r" "right" "b" "bottom" (Default is left).
+</li><li> <b>width</b> - (int) How many pixels from the chosen edge to start.
+</li><li> <b>height</b> - (int) How many pixels from the chosen edge to start.
+</li><li> <b>resizable</b> - (bool) Set this flag to allow the user to change the position of the framedivider.  Default is to allow it to be resizable.
+</li><li> <b>maxwidth</b> - (int) The maximum amount of pixels you are able to move the poppler if resizable.
+</li><li> <b>minwidth</b> - (int) The minimum amount of pixels you are able to move the poppler if resizable (If you go below this value the poppler will snap to 0).
+</li><li> <b>vgrabber</b> - (string) The centered bitmap of the Grabber.
+</li><li> <b>vbitmap</b> - (string) The stretched bitmap of the Grabber.
+</li></ul>
+<p>In the following simple example, the "top" and "bottom" groups are displayed in a resizable frame object:
+</p>
+<pre>&lt;groupdef id="top"&gt;
+	&lt;text text="Top" align="center" x="0" y="0" w="0" h="0" relatw="1" relath="1"/&gt;
+&lt;/groupdef&gt;
+&lt;groupdef id="bottom"&gt;
+    &lt;text text="Bottom" align="center" x="0" y="0" w="0" h="0" relatw="1" relath="1"/&gt;
+&lt;/groupdef&gt;
+&lt;groupdef id="both"&gt;
+	&lt;Wasabi:Frame
+		orientation="horizontal"
+		top="top" bottom="bottom"    
+		x="0" y="0" w="0" h="0"
+		relatw="1" relath="1"
+	/&gt;
+&lt;/groupdef&gt;
+</pre>
+<p><br />
+</p>
+<a name=".3CWasabi:CheckBox.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=11" title="Edit section: &amp;lt;Wasabi:CheckBox/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;Wasabi:CheckBox/&gt;</span></h2>
+<p>The Wasabi:Checkbox object exists only as a namespaced object because it is expected to have only a single themed appearance.  The Wasabi:Checkbox object is used for both checkbox functionality and radiobutton functionality, depending up on the specification of its parameters.  It consists of a combination of a togglebutton and a text object to create a single functional user interface object.
+</p>
+<ul><li> <b>text</b> - (str) The text to display as part of the checkbox.
+</li><li> <b>radioid</b> - (id) If the button is to be used as part of a radio group, specify id of the parent Wasabi:RadioGroup object here.
+</li><li> <b>radioval</b> - (int) If the button is to be used as part of a radio group, specify its unique integer value here.
+</li><li> <b>action</b> - (str) see button.
+</li><li> <b>param</b> - (str) see button.
+</li><li> <b>action_target</b> - (id) see button.
+</li></ul>
+<p>As with togglebutton, this is a very useful object for binding to a configuration attribute. It is very popular in preferences interfaces. If the object has a value for radioval, that will be the value set into the attribute if the object is activated.
+</p><p><br />
+</p>
+<a name=".3CWasabi:DropDownList.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=12" title="Edit section: &amp;lt;Wasabi:DropDownList/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;Wasabi:DropDownList/&gt;</span></h2>
+<p>The Wasabi:DropDownList is a themed dialog object.  It may be statically filled via a parameter or dynamically through script or by binding it to a text feed from code.  A Wasabi:DropDownList object may be bound to an integer configuration attribute.
+</p>
+<ul><li> <b>items</b> - (str) A semicolon delimited list of items to be displayed in the dropdown area.
+</li><li> <b>feed</b> - (id) The id of a text feed to provide a semicolon delimited list of items to be displayed in the dropdown area.
+</li><li> <b>select</b> - (int) Specifies an item to be selected.
+</li><li> <b>listheight</b> - (int) Allows the skinner to specify the height of the dropdown area in pixels.
+</li><li> <b>maxitems</b> - (int) Allows the skinner to specify the max height of the dropdown area in lines of text.  If the dropdown area has fewer lines of text than this value when this value is set, the dropdown area is sized to show no more than is needed.
+</li></ul>
+<p><br />
+</p>
+<a name=".3CWasabi:ComboBox.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=13" title="Edit section: &amp;lt;Wasabi:ComboBox/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;Wasabi:ComboBox/&gt;</span></h2>
+<p>The Wasabi:ComboBox is a special type of object which combines dropdownlist functionality with an edit field as well.  It has the same parameters as Wasabi:DropDownList.
+</p><p><br />
+</p>
+<a name=".3CWasabi:HistoryEditBox.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=14" title="Edit section: &amp;lt;Wasabi:HistoryEditBox/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;Wasabi:HistoryEditBox/&gt;</span></h2>
+<p>The Wasabi:HistoryEditBox is an even more specialized version of this object family, its only purpose is to remember the last 64 items of text typed into it.  It has one extra parameter over Wasabi:DropDownList: 
+</p>
+<ul><li> <b>navbuttons</b> - (bool) Setting this flag will include the navigation buttons on the object.  Default is to have the buttons.
+</li></ul>
+<p><br />
+</p>
+<a name=".3Ccomponentbucket.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=15" title="Edit section: &amp;lt;componentbucket/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;componentbucket/&gt;</span></h2>
+<p>The componentbucket is a fancy name for the Thinger.  More precisely, in Winamp3, the "Thinger Window" is a window which implements a very simple horizontal componentbucket.  The object itself may be instantiated horizontally or vertically and the scrolling of the display within it should be controlled by button objects using "cb_next" and "cb_prev" action parameters and setting the cbtarget parameter to this object.  The object has the following parameters:
+</p>
+<ul><li> <b>leftmargin</b> - (int) The number of extra pixels to pad the left (or top) edge of the total component bucket scrolling display.
+</li><li> <b>rightmargin</b> - (int) The number of extra pixels to pad the right (or bottom) edge of the total component bucket scrolling display.
+</li><li> <b>spacing</b> - (int) The number of extra pixels to place between each bucket icon.
+</li><li> <b>vertical</b> - (bool) Whether or not the display should scroll vertically or horizontally.  Default is horizontal.
+</li></ul>
+<p>A simple "thinger group" follows:
+</p>
+<pre>&lt;groupdef id="some.thinger.group.thing"&gt;
+	&lt;button id="mythinger.up" x="0" y="0"
+		h="20" w="0" relatw="1"
+		image="mythinger.up.normal" 
+		hoverimage="mythinger.up.hover" 
+		downimage="mythinger.up.down"
+		action="CB_PREV" cbtarget="mythinger"
+	/&gt;
+	&lt;button id="mythinger.down" x="0" y="-20"
+		h="20" w="0" relatw="1" relaty="1"
+		image="mythinger.down.normal" 
+		hoverimage="mythinger.down.hover" 
+		downimage="mythinger.down.down"
+		action="CB_NEXT" cbtarget="mythinger"
+	/&gt;
+	&lt;componentbucket id="mythinger" vertical="1" x="0" y="20" w="0" h="-40" relath="1"/&gt; 
+&lt;/groupdef&gt;
+</pre>
+<p><br />
+</p>
+<a name=".3Ccustomobject.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=16" title="Edit section: &amp;lt;customobject/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;customobject/&gt;</span></h2>
+<p>The customobject is a useful tool for temporarily instantiating a group into a user interface.  It has only one parameter:
+groupid - (id) Instantiate the specified group into my defined area.
+By finding your customobject in script and simply calling setXmlParam on it to give it new values for groupid, you can switch between the instantiation of multiple groups in a single user interface space.
+</p><p><br />
+</p>
+<a name=".3Cedit.2F.3E_.26_.3CWasabi:EditBox.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=17" title="Edit section: &amp;lt;edit/&amp;gt; &amp; &amp;lt;Wasabi:EditBox/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;edit/&gt; &amp; &lt;Wasabi:EditBox/&gt;</span></h2>
+<p>The edit control is, as you might guess, a text entry field. Some versions of Wasabi currently embed an OS edit control into the rectangular area defined by this object.  This embedded control will not blend properly with the rest of the skin's painting, it will always paint on top of everything else.  Keep this in mind when developing skins for widest compatibility.
+</p>
+<ul><li> <b>text</b> - (str) Set the text in the edit field to this value.
+</li><li> <b>action</b> - (str) Will accept the string "mb_url" to cause this edit box to automatically send its value as an url to the main minibrowser.
+</li><li> <b>multiline</b> - (bool) Determines if the box is a single or multiple line input style.
+</li><li> <b>vscroll</b> - (bool) Causes the edit window to have a vertical scroller.  Default is off.
+</li><li> <b>autohscroll</b> - (bool) Causes the horizontal area to scroll if necessary.  Default is on.
+</li><li> <b>autoenter</b> - (bool) Causes the system to automatically send a "done" event when the user stops typing past a certain timeout.  Default is off.
+</li><li> <b>password</b> - (bool) Causes the echoed characters to be single marks for password purposes.  Default is off.
+</li></ul>
+<p>An edit object may be bound to a string configuration attribute.
+</p><p>Here's the definition of Wasabi:EditBox:
+</p>
+<pre>&lt;groupdef
+	id="wasabi.edit" h="20"
+	inherit_group="wasabi.objectframe.group"
+	xuitag="Wasabi:EditBox" embed_xui="wasabi.edit.box"
+&gt;
+	&lt;edit id="wasabi.edit.box" x="1" y="1" w="-2" h="-2" relatw="1" relath="1"/&gt;
+&lt;/groupdef&gt;
+</pre>
+<a name=".3Cgrid.2F.3E_2"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=18" title="Edit section: &amp;lt;grid/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;grid/&gt;</span></h2>
+<p>The grid object is a very nice object for creating stretchable images that still look good on the edges.  It is a graphic, like a layer, but unlike layer it is created by applying nine different bitmaps, stretching five of them.  There are, as you might guess, nine parameters
+</p>
+<ul><li> <b>topleft</b> - (id) A bitmap element for the top left section of the grid.
+</li><li> <b>top</b> - (id) A bitmap element for the top middle section of the grid.
+</li><li> <b>topright</b> - (id) A bitmap element for the top right section of the grid.
+</li><li> <b>left</b> - (id) A bitmap element for the middle left section of the grid.
+</li><li> <b>middle</b> - (id) A bitmap element for the center section of the grid.
+</li><li> <b>right</b> - (id) A bitmap element for the middle right section of the grid.
+</li><li> <b>bottomleft</b> - (id) A bitmap element for the bottom left section of the grid.
+</li><li> <b>bottom</b> - (id) A bitmap element for the bottom middle section of the grid.
+</li><li> <b>bottomright</b> - (id) A bitmap element for the bottom right section of the grid. 
+</li></ul>
+<p>Essentially, the given rectangle of the grid is intersected with 2 horizontal and 2 vertical lines.  The topleft, topright, bottomleft, and bottomright bitmap elements will not be resized.  The top, left, middle, right, and bottom bitmap elements, however, will be stretched to make all fit the grid rectangle.  Using intelligently sized bitmap elements is fairly critical for this object.  If you're having trouble, try starting with all of your bitmap elements as equal-sized squares.
+</p>
+<pre>Example:
+&lt;grid x="70" y="25" w="-74" relatw="1" h="20" topleft="main.text.left" top="main.text.center" topright="main.text.right"/&gt;
+</pre>
+<p><br />
+</p>
+<a name=".3Cgroup.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=19" title="Edit section: &amp;lt;group/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;group/&gt;</span></h2>
+<p>Groups are instantiated by using the group tag.  Groups, when instantiated within a layout or some other groupdef, take the standard GuiObject params in order to define the group's instantiated size and properties, and then all of the contents of the group will be instantiated within the space it defines.  At instantiation, a group will express a specified boundary rectangle and, thus, the positions of objects within it depending upon relative, proportional, or design coordinate systems may then be calculated.
+</p><p>To specify which groupdef to instantiate, set the id parameter of the group tag to the id of the desired groupdef.  The instantiation of each group can be so customized, however, group instantiates also may be assigned their own custom id to allow each instantiate to be found by code or script:
+</p>
+<ul><li> <b>id</b> (id) - The groupdef to be instantiated.
+</li><li> <b>instance_id</b> (str) - A new id value with which to be able find this particular instantiate.
+</li></ul>
+<p>The following snippet will create two instantiates of the source group, with one specially customized (in the assumption that the "specialchild.maki" script will be handling the fact one is going to be special)&nbsp;:
+</p>
+<pre>&lt;groupdef id="child"&gt;
+	&lt;layer image="childimg" x="0" y="0" w="0" h="0" relatw="0" relath="0"/&gt;
+&lt;/groupdef&gt;
+&lt;groupdef id="parent"&gt;
+	&lt;group id="child" x="0" y="0" w="0" relatw="0" h="90"/&gt;
+	&lt;group id="child" instance_id="special"
+		notify="This is a special notification for this obj."
+		x="0" y="90" w="0" relatw="0" h="-90" relath="1"/&gt;
+	&lt;script file="specialchild.maki"/&gt;
+&lt;/groupdef&gt;
+</pre>
+<p><br />
+</p>
+<a name=".3Cgrouplist.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=20" title="Edit section: &amp;lt;grouplist/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;grouplist/&gt;</span></h2>
+<p>A grouplist is, oddly enough, an object whose purpose is to accept and display a list of multiple groups.  For instance, Wasabi's popup menu is a grouplist.  A grouplist is expected to be filled in script, and it has no interesting parameters.
+</p><p><br />
+</p><p><br />
+</p>
+<a name=".3Clayer.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=21" title="Edit section: &amp;lt;layer/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;layer/&gt;</span></h2>
+<p>In Wasabi, the layer is analogous to the same-named object in photoshop.  It is simply a nice bitmap graphic to be displayed in the user interface (with the standard alpha and region effects available to all guiobject derived objects, based by default on the properties of the bitmap element it houses).  Here are its parameters:
+</p>
+<ul><li> <b>image</b> - (id) The id of the bitmap element to be used for display.
+</li><li> <b>inactiveimage</b> - (id) A secondary id to be displayed if this guiobject is set to "inactive" status.
+</li><li> <b>region</b> - (id) The id of a different bitmap element to use as the source of this object's region.
+</li><li> <b>tile</b> - (bool) Setting this flag will tile the image if the rectangular size of the layer is different than the rectangular size of the bitmap.  The default is to stretch.
+</li><li> <b>resize</b> - (str) A specific string enumerating which direction one should allow the resizing of the parent layout if this object's region is gripped and dragged by the user. Incompatible with the move parameter on guiobject.  See below.
+</li><li> <b>scale</b> - (str) A specific string enumerating which direction one should allow the scaling of the parent layout if this object's region is gripped and dragged by the user.  Incompatible with the move parameter on guiobject.  See below.
+</li><li> <b>dblclickaction</b> - (str) The string of an action to be sent into the system if this object is doubleclicked within its region.
+</li></ul>
+<p>The resize and scale parameters transform the simple layer graphic into interactive gui objects in the system by enabling them to be dragged by the user to resize or change the scale of the parent layout.  The eight possible values for these parameters are "top" "left" "right" "bottom" "topleft" "topright" "bottomleft" and "bottomright."  If both resize and scale are set on a single layer, the object will act as a resizer by default but as a scaler if the ALT key is held down.
+</p><p><br />
+</p>
+<a name=".3Canimatedlayer.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=22" title="Edit section: &amp;lt;animatedlayer/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;animatedlayer/&gt;</span></h2>
+<p>An animatedlayer is a series of frames of sprite animation displayed in the GUI.  The frames of animation are specified in the bitmap element which is given in the image parameter to this object.  The animation is expected to be a specific progression of frames of a fixed size, also to be specified via parameters on the object.  Each frame of animation will have its own region.    The animatedlayer object inherits directly from the layer object, so all of the above parameters are valid, along with these specific to animation:
+</p>
+<ul><li> <b>frameheight</b> - (int) The height in pixels of each cell of animation.  If frameheight is set, the animation will be assumed to be a vertical strip of cells in the given bitmap.
+</li><li> <b>framewidth</b> - (int) The width in pixels of each cell of animation.  If framewidth is set, the animation will be assumed to be a horizontal strip of cells in the given bitmap.
+</li><li> <b>elementframes</b> - (int) The number of total frames of animation.  If this value is set, the animation will be assumed to be comprised of multiple bitmap elements whose ids are resolved by using the value of the image parameter as a printf-compatible formatting string with a single integer parameter.  See below.
+</li><li> <b>start</b> - (int) The frame index which should be used as the beginning frame of the animation.  Default is the first frame of the defined animation list.
+</li><li> <b>end</b> - (int) The frame index which should be used as the terminating frame of the animation.  Default is the last frame of the defined animation list.
+</li><li> <b>speed</b> - (int) The delay in ms between each frame, on average.  Default is 200 ms.
+</li><li> <b>realtime</b> - (bool) Setting this flag will force-redraw the animation area the moment the new frame is meant to be seen.  Default behaviour is to wait for and go along with the other invalidations from the rest of the UI on the main thread's draw loop.  Expect use of this flag to have a high impact on system performance on slower machines.  In other words, don't use it unless you know what you're doing.
+</li><li> <b>autoreplay</b> - (bool) Setting this flag will cause the animation to repeat to the beginning frame once it has displayed the terminating frame of animation.  Default is ON.
+</li><li> <b>autoplay</b> - (bool)  Setting this flag will cause the animation to begin playing the moment it is loaded into the user interface.  Default is OFF.  See below.
+</li><li> <b>debug</b> - (bool)  Setting this flag will cause the system to draw the current frame number of the animation on top of the animation graphics, for, as you might guess, debug purposes.
+</li></ul>
+<p>You must note that animations are usually meant to be "triggered" through script, as too many live animations happily blitting their way through a deep and complex user interface using lots of alpha blending, et al, can cause significant performance bottlenecks on slow computers (especially if your users aren't expecting your application to be eating all of the machine resources).  With this in mind, if you just create an animated layer and drop it into a skin, it will not begin animating unless you set the autoplay parameter.
+</p><p>There are three different ways to present animation frames to this object.  The frames may either all be concatenated into a vertical or horizontal "filmstrip" style bitmap element -- in which case the height or width of each animation cell (respectively) should be set with the frameheight or framewidth parameter.  
+The third way to give this object its animation frames is more complex and consists of loading multiple bitmap elements with each bitmap representing one frame of animation.  This is done by first setting the elementframes parameter with the number of frames to be loaded, then by using a special formatting string as the image parameter.  For those familiar with the printf function, when the elementframes parameter is set, that integer will be run in a for loop and the image name will be used as the formatting string to a printf function that takes only the current integer in the for loop as a parameter.
+For those unfamiliar with printf, this will seem a bit confusing.  Somewhere in the string you pass to the image parameter, you should have the two characters %d, and these characters will be replaced by the character representation of the number as it loads bitmap elements.  If you want to have 0-loaded prefix characters (for instance "01-09" instead of "1-9"), you can place %02d into your image parameter, and if there aren't enough characters in the number to make up 2 full digits, the number will be left-padded with the zero character.  You can just as easily use any number of padding characters as well.  
+I highly suspect this all still makes little sense, so let me give you a simplified example (missing important parameters) to show three different animated layers each loading three sets of differently named bitmaps:
+</p>
+<pre>&lt;elements&gt;
+	&lt;bitmap id="bmp1"/&gt; 
+	&lt;bitmap id="bmp2"/&gt; 
+	&lt;bitmap id="bmp3"/&gt; 
+	&lt;bitmap id="bmp01img"/&gt;
+	&lt;bitmap id="bmp02img"/&gt;
+	&lt;bitmap id="bmp03img"/&gt;
+	&lt;bitmap id="b00001mp"/&gt;
+	&lt;bitmap id="b00002mp"/&gt;
+	&lt;bitmap id="b00003mp"/&gt;
+&lt;/elements&gt;
+&lt;groupdef id="whatever"&gt;
+	&lt;animatedlayer image="bmp%d" elementframes="3"/&gt;
+	&lt;animatedlayer image="bmp%02dimg" elementframes="3"/&gt;
+	&lt;animatedlayer image="b%05dmp" elementframes="3"/&gt;
+&lt;/groupdef&gt;
+</pre>
+<p><br />
+</p>
+<a name=".3Clayoutstatus.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=23" title="Edit section: &amp;lt;layoutstatus/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;layoutstatus/&gt;</span></h2>
+<p>The layoutstatus implements the small statusbar that can be found at the bottom of many of the default normal layouts which can contain status text, appcmds buttons, and a proportionally completed progress bar.  The two parameters to this object control what appcmds will be allowed in the status bar:
+</p>
+<ul><li> <b>exclude</b> - (str) A semicolon delimited list of names of appcmds which should not be shown by this control.
+</li><li> <b>include_only</b> - (str) A semicolon delimited list of names of appcmds which will be the only appcmds allowed to be shown by this control.
+</li></ul>
+<p>For the most part, these layoutstatus objects are only controllable from code.
+</p><p><br />
+</p>
+<a name=".3Clist.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=24" title="Edit section: &amp;lt;list/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;list/&gt;</span></h2>
+<p>The list object is similar but not identical to the Win32 list common control.  It is an  optionally multicolumnar list whose purpose is to display multiple pieces of information per horizontal row.  It may be filled directly by encoding the contents in the XML, by attaching the object to a proper text feed, or by calling methods on the object from script.  The parameters for this object are:
+</p>
+<ul><li> <b>items</b> - (str) A properly delimited string of data used to fill the list.  See below.
+</li><li> <b>multiselect</b> - (bool) This flag, when set, allows the user to select multiple items in the list.  Default is to allow multiselect.
+</li><li> <b>autodeselect</b> - (bool) This flag, when set, causes selection of any single item in the list to automatically deselect all other items in the list.  Default is to not autodeselect.
+</li><li> <b>select</b> - (str) The text of a list item to be selected.
+</li><li> <b>antialias</b> - (bool) Setting this flag causes the text to be rendered antialiased if possible.
+</li><li> <b>feed</b> - (id) The id of a text feed to be used to fill this list.
+</li><li> <b>hoverselect</b> - (bool) This flag causes list items to be selected if the user hovers over them.  Default is to not hoverselect.
+</li><li> <b>sort</b> - (bool) This flag causes the list to sort itself.  Default is to not sort.
+</li><li> <b>selectonupdown</b> - (bool) This flag causes the list to interpret the keyboard commands to mean "change my selection to the item."  Default is to select on keyboard events.
+</li><li> <b>numcolumns</b> - (int) How many columns to show.  Default is one.
+</li><li> <b>columwidths</b> - (int) A semicolon delimited list of integers specifying how to size the column widths in this list.  See below.
+</li><li> <b>columnlabels</b> - (str) A semicolon delimited list of strings to be used as the multiple column labels.
+</li></ul>
+<p>The list object depends upon being fed numerous strings with proper syntax in order to properly generate and populate a complex list display.  The syntax for the items parameter (which is the same syntax as the feed must provide) is to delimit each full row in the list with the ';' semicolon character and to delimit each column entry per row with the ',' character.  The columnwidths and columnlabels also require a semicolon (';') delimited list of data, one entry per column.  Note that if -1 is given as a width, those columns will be of dynamic width and split up the leftover pixels among themselves.  The default is one column with no labels and a width of -1.
+</p><p>Here is a sample list object with 3 rows and 3 columns:
+</p>
+<pre>&lt;list id="three.by.three"
+	items="row1,text,1;row2,moretext,2;row3,stilltext,3"
+	numcolumns="3" columnwidths="50,-1,50"
+	multiselect="0" autodeselect="1"
+/&gt;
+</pre>
+<a name=".3Cmouseredir.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=25" title="Edit section: &amp;lt;mouseredir/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;mouseredir/&gt;</span></h2>
+<p>This object simply redirects all mouse events from its region to the target object specified in the parameter:
+</p>
+<ul><li> <b>target</b> - (id) The target object to get mouse events.
+</li></ul>
+<p>This is useful for when some objects get overlapped by nonfunctional graphics when laying out complex interfaces.
+</p><p><br />
+</p>
+<a name=".3CWasabi:RadioGroup.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=26" title="Edit section: &amp;lt;Wasabi:RadioGroup/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;Wasabi:RadioGroup/&gt;</span></h2>
+<p>The Wasabi:RadioGroup object is an invisible object whose purpose is to centralize the functionality of multiple Wasabi:CheckBox objects instantiated in radiobutton mode.  The radioid params on the Wasabi:CheckBox instantiates should give the id of one of these Wasabi:RadioGroup objects.  It has no unique parameters.  Here is a snippet of simple radiobutton functionality:
+</p>
+<pre>&lt;Wasabi:RadioGroup id="enableddisabled"/&gt;
+&lt;Wasabi:CheckBox x="50" y="110" w="60"
+	text="Enabled" radioid="enableddisabled"
+	cfgattrib="{9149C445-3C30-4E04-8433-5A518ED0FDDE};Enable desktop alpha"
+	radioval="1"
+/&gt;
+&lt;Wasabi:CheckBox x="-125" y="110" w="62" relatx="1"
+	text="Disabled" radioid="enableddisabled"
+	cfgattrib="{9149C445-3C30-4E04-8433-5A518ED0FDDE};Enable desktop alpha"
+	radioval="0"
+/&gt;
+</pre>
+<p><br />
+</p>
+<a name=".3Crect.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=27" title="Edit section: &amp;lt;rect/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;rect/&gt;</span></h2>
+<p>A nice flat rectangle.  It may be either filled or hollow, and if hollow you may specify only some edges drawn.  Here are its parameters:
+</p>
+<ul><li> <b>color</b> - (id) The id of a color element, or an comma delimited integer triplet RGB value.  Default is "255,00,255" (an ugly color to remind you to set it).
+</li><li> <b>filled</b> - (bool) This flag causes the entire rectangular area to be filled with color.  Default is to not be filled.
+</li><li> <b>edges</b> - (str) A pipe ("|") delimited set of one or all of the following: "left" "right" "top" "bottom" Default is all, ie: "left|right|top|bottom".
+</li></ul>
+<p><br />
+</p>
+<a name=".3Cscript.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=28" title="Edit section: &amp;lt;script/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;script/&gt;</span></h2>
+<p>Scripts allow for the simple creation of UI functionality without requiring C++ code.  While scripts are "compiled" into "script binaries," these script binaries are special to wasabi and, more importantly, can be run by any compatible Wasabi runtime on any OS to which Wasabi has a runtime.  Scripts are bound like GuiObjects into layout or groupdef sections using the script tag and have the ability to find and modify the nearby sibling and child objects once the UI has been fully instantiated.  Scripts have two important parameters:
+</p>
+<ul><li> <b>file</b> - (str) The filename of the .maki file to load, relative to this xml file.
+</li><li> <b>param</b> - (str) A string that will be available to the instance of the .maki file as an instance specific parameter.
+</li></ul>
+<p>Note that a single .maki file may be instantiated as a script object numerous times over, and each instantiation can have its own specific parameter data.  Judicious use of this feature can help minimize your reliance on hardcoded strings and limited flexibility in your scripting.
+</p><p><br />
+</p>
+<a name=".3Cslider.2F.3E_.26_.3CWasabi:HSlider.2F.3E_.26_.3CWasabi:VSlider.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=29" title="Edit section: &amp;lt;slider/&amp;gt; &amp; &amp;lt;Wasabi:HSlider/&amp;gt; &amp; &amp;lt;Wasabi:VSlider/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;slider/&gt; &amp; &lt;Wasabi:HSlider/&gt; &amp; &lt;Wasabi:VSlider/&gt;</span></h2>
+<p>The slider object consists of a background set of images, and a thumb.  The thumb is constrained to move in one dimension -- horizontally or vertically, depending upon its orientation.  The distance in pixels travelled by the thumb across its total distance is interpollated to produce a value between the low and high boundary integers which is assigned to any configuration attribute which may happen to be attached.  Here are the parameters for slider:
+</p>
+<ul><li> <b>barleft</b> - (id) The bitmap element for the left or top position of the slider.
+</li><li> <b>barmiddle</b> - (id) The bitmap element for the middle, stretched, position of the slider.
+</li><li> <b>barright</b> - (id) The bitmap element for the right or bottom position of the slider.
+</li><li> <b>thumb</b> - (id) The bitmap element for the slider thumb.
+</li><li> <b>downthumb</b> - (id) The bitmap element for the slider thumb when held by the user.
+</li><li> <b>hoverthumb</b> - (id) The bitmap element for the slider thumb when the user's mouse is above it.
+</li><li> <b>orientation</b> - (str) Either "v" or "vertical" to make the slider vertical, otherwise it will be horizontal.
+</li><li> <b>low</b> - (int) Set the low-value boundary.  Default is 0.
+</li><li> <b>high</b> - (int) Set the high-value boundary.  Default is 255.
+</li></ul>
+<p><br />
+</p>
+<a name=".3Csnappoint.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=30" title="Edit section: &amp;lt;snappoint/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;snappoint/&gt;</span></h2>
+<p>The snappoint is an invisible point that will attract other snappoint objects with the same id in any other layout and make them want to dock, like little magnets.  These objects have only the following subset of guiobject XML parameters:
+</p>
+<ul><li> <b>id</b> - (id) All snappoint objects with the same id will snap to each other.  Different ids ignore each other.
+</li><li> <b>x</b> - (int) The x position of the snappoint, see: guiobject.
+</li><li> <b>y</b> - (int) The y position of the snappoint, see: guiobject.
+</li><li> <b>relatx</b> - (int) The horizontal coordinate space of the snappoint, see: guiobject.
+</li><li> <b>relaty</b> - (int) The vertical coordinate space of the snappoint, see: guiobject.
+</li></ul>
+<p><br />
+</p>
+<a name=".3CWasabi:TabSheet.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=31" title="Edit section: &amp;lt;Wasabi:TabSheet/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;Wasabi:TabSheet/&gt;</span></h2>
+<p>The Wasabi:TabSheet object contains multiple group instances within it and allows the user to switch between the display of those groups by the ability to click on a list of tab buttons at the top of the rectangular area of the Wasabi:TabSheet.  The name parameter of each groupdef is displayed as the text in the tab which corresponds to it.  Here are the Wasabi:TabSheet parameters:
+</p>
+<ul><li> <b>windowtype</b> - (str) A windowtype string which will instantiate one of every groupdef with the same windowtype and every window class registered with a window creation service to include this windowtype.
+</li><li> <b>children</b> - (id) A semicolon delimited list of groupdef ids to also be instantiated as children of this tabsheet.
+</li><li> <b>type</b> - (int) There are two different themed display styles for Wasabi:TabSheet.  One is with multiple tabs (sheet style), one is with a single button on top that will popup a menu with all the possible tab choices (sidecar style).  The Default is sheet style, which is a value of -2.  Any other value besides -2 will give you sidecar style.
+</li><li> <b>content_margin_top</b> - (int) A margin in pixels to offset the content from the client rectangle of the Wasabi:Tabsheet.
+</li><li> <b>content_margin_left</b> - (int) A margin in pixels to offset the content from the client rectangle of the Wasabi:Tabsheet.
+</li><li> <b>content_margin_right</b> - (int) A margin in pixels to offset the content from the client rectangle of the Wasabi:Tabsheet.
+</li><li> <b>content_margin_bottom</b> - (int) A margin in pixels to offset the content from the client rectangle of the Wasabi:Tabsheet.
+</li></ul>
+<p><br />
+</p>
+<a name=".3Ctext.2F.3E_.26_.3CWasabi:Text.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=32" title="Edit section: &amp;lt;text/&amp;gt; &amp; &amp;lt;Wasabi:Text/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;text/&gt; &amp; &lt;Wasabi:Text/&gt;</span></h2>
+<p>The text object is for using the system to render some text in the font of your choice.
+Since Winamp 5.5 (skinversion 1.3) text objects can have multiple lines. For a new line use this "/n"
+</p>
+<ul><li> <b>display</b> - (str) Either a specific system display string or the string identifier of a text feed.  Setting this value will override the text parameter.  See below.
+</li><li> <b>ticker</b> - (bool) Setting this flag causes the object to scroll left and right if the text does not fit the rectangular area of the text object.
+</li><li> <b>antialias</b> - (bool) Setting this flag causes the text to be rendered antialiased if possible.
+</li><li> <b>text</b> - (str) A static string to be displayed.
+</li><li> <b>default</b> - (str) A parameter alias for text.
+</li><li> <b>font</b> - (id) The id of a bitmapfont or truetypefont element.  If no element with that id can be found, the OS will be asked for a font with that name instead.
+</li><li> <b>fontsize</b> - (int) The size to render the chosen font.
+</li><li> <b>align</b> - (str) One of the following three possible strings: "left" "center" "right" -- Default is "left."
+</li><li> <b>valign</b> - (str) One of the following three possible strings: "top" "center" "bottom" -- Default is "top."
+</li><li> <b>color</b> - (int) The comma delimited RGB color of the text.
+</li><li> <b>shadowcolor</b> - (int) The comma delimited RGB color for underrendered shadow text.
+</li><li> <b>shadowx</b> - (int) The x offset of the shadowrender.
+</li><li> <b>shadowy</b> - (int) The y offset of the shadowrender.
+</li><li> <b>timeroffstyle</b> - (int) How to display an empty timer: "0" = " &nbsp;:  ", "1" = "00:00", and "2"="" (if one is displaying time)
+</li><li> <b>timecolonwidth</b> - (int) How many extra pixels wider or smaller should the colon be when displaying time.  Default is -1.
+</li><li> <b>nograb</b> - (bool) Setting this flag will cause the text object to ignore left button down messages.  Default is off.
+</li><li> <b>showlen</b> - (bool) Setting this flag will cause the text display to be appended with the length in minutes and seconds of the current song.  Default is off.
+</li><li> <b>forcefixed</b> - (bool) Force the system to attempt to render the display string with fixed-width font spacing.
+</li><li> <b>forceupcase</b> - (bool) Force the system to make the display string all uppercase before display.
+</li><li> <b>forceuppercase</b> - (bool) Force the system to make the display string all uppercase before display.
+</li><li> <b>forcelocase</b> - (bool) Force the system to make the display string all lowercase before display.
+</li><li> <b>forcelowercase</b> - (bool) Force the system to make the display string all lowercase before display.  
+</li><li> <b>bold</b> - (bool) Render the display string in bold.
+</li><li> <b>wrap</b> - (bool) Setting this flag will cause the text to wrap in its rectangular space.  Default is off.
+</li><li> <b>dblclickaction</b> - (str) A string in the form "SWITCH;layout" where layout is the id of a layout in this object's parent container.  No other actions function on this object.  This action is deprecated.
+</li><li> <b>offsetx</b> - (int) Extra pixels to be added to or subtracted from the calculated x value for the display string to render.
+</li><li> <b>offsety</b> - (int) Extra pixels to be added to or subtracted from the calculated x value for the display string to render.
+</li></ul>
+<pre>"SONGNAME" 		- The name string of the currently playing song (from metadb).
+"SONGINFO" 		- The full info string of the currently playing song (from metadb).
+"SONGARTIST" 		- The artist string of the currently playing song (from metadb).
+"SONGTITLE" 		- The title string of the currently playing song (from metadb).
+"SONGALBUM" 		- The album string of the currently playing song (from metadb).
+"SONGLENGTH" 		- The length string of the currently playing song (from metadb).
+"TIME" 			- The length string of the currently playing song.
+"TIMEELAPSED" 		- The elapsed time string of the currently playing song.
+"TIMEREMAINING" 	- The time remaining string of the currently playing song.
+"COMPONENTBUCKET" 	- The id of the componentbucket (thinger) item the mousecursor is currently hovering above.
+"SONGBITRATE" 		- The bitrate string of the currently playing song (from metadb).
+"SONGSAMPLERATE" 	- The sample string of the currently playing song (from metadb).
+
+*** Broken Action (Winamp 5) ***
+"NORMALIZER:STATUS" 	- The current status of the audio normalizer.
+</pre>
+<pre>Example:
+&lt;text x="81" y="11" w="25" h="21" antialias="0" text="Read This" align="center" color="0,0,0" bold="1"/&gt; 
+</pre>
+<p><br />
+</p>
+<a name=".3CWasabi:TitleBox.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=33" title="Edit section: &amp;lt;Wasabi:TitleBox/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;Wasabi:TitleBox/&gt;</span></h2>
+<p>The Wasabi:TitleBox object is a nice way to put a simple rectangular frame and title around your content groups.  It has the following parameters:
+</p>
+<ul><li> <b>title</b> - (str) The string to display in the title area.  Default is to use the name parameter of the content group.
+</li><li> <b>content</b> - (id) The id of the groupdef to instantiate as content.
+</li><li> <b>centered</b> - (bool) Setting this flag will center the title text.  Default is to not be centered (and be left justified).
+</li><li> <b>suffix</b> - (str) A string which will be appended to the title before it is displayed.  In this way, if you instantiate multiple groups as content, each name change can still have a string appended.
+</li></ul>
+<p><br />
+</p>
+<a name=".3CWasabi:Titlebar.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=34" title="Edit section: &amp;lt;Wasabi:Titlebar/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;Wasabi:Titlebar/&gt;</span></h2>
+<p>The Wasabi:TitleBar is the graphically themed bar that is placed at the top of all of the Wasabi:StandardFrame windows.  It has the same parameters as the text object, which control the text display of the titlebar.
+</p><p><br />
+</p>
+<a name=".3Ctree.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=35" title="Edit section: &amp;lt;tree/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;tree/&gt;</span></h2>
+<p>The tree object displays a hierarchical set of information with multiple items, where each item may in turn have multiple subitems.  Let's examine its parameters:
+</p>
+<ul><li> <b>items</b> - (str) A specially formatted string describing the hierarchical creation of the tree info.  See below.
+</li><li> <b>feed</b> - (str) The string identifier of a text feed which should provide a string in the same format as the items parameter.
+</li><li> <b>sorted</b> - (bool) Setting this flag will cause all of the tree items to be sorted before display.  Default is to sort.
+</li><li> <b>childtabs</b> - (bool) Setting this flag will cause all tree items with children to display a tab graphic beside them.  Default is to show tab graphics.
+</li><li> <b>expandroot</b> - (bool) Setting this flag will cause all root tree items to display with their children pre-expanded.  Default is to pre-expand root tree items.
+</li></ul>
+<p>The syntax required to describe the hierarchy of tree items is a semicolon delimited list of objects in the form "name(list)" where name is the string to display for that tree item and list is another semicolon delimited list of objects which are the direct children of name. 
+</p><p>The following snippet will create a tree with one root node that has three child nodes, with each child node having differing numbers of sub nodes:
+</p>
+<pre>&lt;tree id="example.tree"
+	x="0" y="0" w="0" h="0" relatw="1" relath="1"
+	items="root(child1(sub1;sub2);child2;child3(sub3))"
+/&gt;
+</pre>
+<p><br />
+</p>
+<a name=".3Cvis.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=36" title="Edit section: &amp;lt;vis/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;vis/&gt;</span></h2>
+<p>The vis object is the multistate audio visualization display.  It has a multitude of parameters for how simple it is:
+</p>
+<ul><li> <b>colorallbands</b> - (int) The comma delimited RGB triplet to color all the spectroscope bands.
+</li><li> <b>colorband1</b> - (int) The comma delimited RGB triplet to color spectroscope band 1.
+</li><li> <b>colorband2</b> - (int) The comma delimited RGB triplet to color spectroscope band 2.
+</li><li> <b>colorband3</b> - (int) The comma delimited RGB triplet to color spectroscope band 3.
+</li><li> <b>colorband4</b> - (int) The comma delimited RGB triplet to color spectroscope band 4.
+</li><li> <b>colorband5</b> - (int) The comma delimited RGB triplet to color spectroscope band 5.
+</li><li> <b>colorband6</b> - (int) The comma delimited RGB triplet to color spectroscope band 6.
+</li><li> <b>colorband7</b> - (int) The comma delimited RGB triplet to color spectroscope band 7.
+</li><li> <b>colorband8</b> - (int) The comma delimited RGB triplet to color spectroscope band 8.
+</li><li> <b>colorband9</b> - (int) The comma delimited RGB triplet to color spectroscope band 9.
+</li><li> <b>colorband10</b> - (int) The comma delimited RGB triplet to color spectroscope band 10.
+</li><li> <b>colorband11</b> - (int) The comma delimited RGB triplet to color spectroscope band 11.
+</li><li> <b>colorband12</b> - (int) The comma delimited RGB triplet to color spectroscope band 12.
+</li><li> <b>colorband13</b> - (int) The comma delimited RGB triplet to color spectroscope band 13.
+</li><li> <b>colorband14</b> - (int) The comma delimited RGB triplet to color spectroscope band 14.
+</li><li> <b>colorband15</b> - (int) The comma delimited RGB triplet to color spectroscope band 15.
+</li><li> <b>colorband16</b> - (int) The comma delimited RGB triplet to color spectroscope band 16.
+</li><li> <b>colorbandpeak</b> - (int) The comma delimited RGB triplet to color the spectroscope peak line.
+</li><li> <b>colorallosc</b> - (int) The comma delimited RGB triplet to color the whole oscilloscope.
+</li><li> <b>colorosc1</b> - (int) The comma delimited RGB triplet to color oscilloscope section 1.
+</li><li> <b>colorosc2</b> - (int) The comma delimited RGB triplet to color oscilloscope section 2.
+</li><li> <b>colorosc3</b> - (int) The comma delimited RGB triplet to color oscilloscope section 3.
+</li><li> <b>colorosc4</b> - (int) The comma delimited RGB triplet to color oscilloscope section 4.
+</li><li> <b>colorosc5</b> - (int) The comma delimited RGB triplet to color oscilloscope section 5.
+</li><li> <b>channel</b> - (int) One of three values for which channel to monitor: "1" is left channel, "2" is right channel, "3" is stereo.  Default is stereo.
+</li><li> <b>fliph</b> - (bool) If this flag is set, it blits the vis pixels flipped horizontally.
+</li><li> <b>flipv</b> - (bool) If this flag is set, it blits the vis pixels flipped vertically.
+</li><li> <b>mode</b> - (int) One of three values for which mode to display: "0" is no display, "1" is spectroscope, "2" is oscilloscope.  Default is to read from a config item.
+</li></ul>
+<p>When the user clicks on the vis, it will cycle between its three modes.
+</p><p><br />
+</p>
+<a name=".3Ceqvis.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=37" title="Edit section: &amp;lt;eqvis/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;eqvis/&gt;</span></h2>
+<p>The eqvis object is rather specific to media players, as it is the spline display for the eq settings in the Wasabi Media Player.
+</p>
+<ul><li> <b>colortop</b> - (str) A color value or color element id for the top portion of the spline display.
+</li><li> <b>colormiddle</b> - (str) A color value or color element id for the middle portion of the spline display.
+</li><li> <b>colorbottom</b> - (str) A color value or color element id for the bottom portion of the spline display.
+</li><li> <b>colorpreamp</b> - (str) A color value or color element id for the preamp bar in the spline display.
+</li></ul>
+<p><br />
+</p>
+<a name=".3Cgradient.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=38" title="Edit section: &amp;lt;gradient/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;gradient/&gt;</span></h2>
+<p>The gradient object creates a rectangular color gradient.  The available parameters are:
+</p>
+<ul><li> <b>gradient_x1</b> - (float) A floating point value for the left side of the rectangle.  Default is 0.0
+</li><li> <b>gradient_y1</b> - (float) A floating point value for the top side of the rectangle.  Default is 0.0
+</li><li> <b>gradient_x2</b> - (float) A floating point value for the right side of the rectangle.  Default is 1.0
+</li><li> <b>gradient_x1</b> - (float) A floating point value for the bottom side of the rectangle.  Default is 1.0
+</li><li> <b>points</b> - (str) A complex string defining color values for at least two value points with which to build the gradients.  See below.
+</li></ul>
+<p>The points syntax is a semicolon delimited list of key=value pairs where the key is a floatingpoint number representing a point in the "gradient space" and the value is an RGB triplet (assumed full alpha) or RGBA quad.  For instance, the following object would create a smooth gradient between red in the top left and green at half alpha in the bottom right:
+</p>
+<pre>	&lt;gradient id="red.to.green"
+		x="0" y="0" w="0" h="0" 
+		relatw="1" relath="1"
+		points="0.0=255,0,0,255;1.0=0,255,0,128"
+	/&gt;
+</pre>
+<p><br />
+</p><p><br />
+</p>
+<a name=".3CWasabi:StandardFrame:Status.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=39" title="Edit section: &amp;lt;Wasabi:StandardFrame:Status/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;Wasabi:StandardFrame:Status/&gt;</span></h2>
+<a name=".3CWasabi:StandardFrame:NoStatus.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=40" title="Edit section: &amp;lt;Wasabi:StandardFrame:NoStatus/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;Wasabi:StandardFrame:NoStatus/&gt;</span></h2>
+<a name=".3CWasabi:StandardFrame:Modal.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=41" title="Edit section: &amp;lt;Wasabi:StandardFrame:Modal/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;Wasabi:StandardFrame:Modal/&gt;</span></h2>
+<a name=".3CWasabi:StandardFrame:Static.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=42" title="Edit section: &amp;lt;Wasabi:StandardFrame:Static/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;Wasabi:StandardFrame:Static/&gt;</span></h2>
+<p>The Wasabi:StandardFrame objects are rectangular frames you can use to encapsulate your own layout contents within the currently themed standard frame.  They all have the following parameters:
+</p>
+<ul><li> <b>content</b> - (id) The id of the groupdef to instantiate within the Wasabi:StandardFrame.
+</li><li> <b>padtitleleft</b> - (int) The distance in pixels to pad the title to the left.
+</li><li> <b>padtitleright</b> - (int) The distance in pixels to pad the title to the right.
+</li><li> <b>shade</b> - (id) The id of the layout within our container we should switch to if the titlebar is doubleclicked (ie: the id of the windowshade layout).  Default is no functionality.
+</li></ul>
+<p>The Wasabi:StandardFrame:Status object has a status bar, while the Wasabi:StandardFrame:NoStatus does not.  The Wasabi:StandardFrame:Static object inherits from Wasabi:StandardFrame:NoStatus and also instantiates the wasabi panel graphics.  The Wasabi:StandardFrame:Modal object does all that and also removes the control menus to make a fully modal dialog frame.
+</p>
+<a name=".3Cwndholder.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=43" title="Edit section: &amp;lt;wndholder/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;wndholder/&gt;</span></h2>
+<p>A wndholder object, similar to a customobject, holds user interface windows based upon what param is given.  The wndholder can also hold window types by guid or groupdef instantiations by id.  Here are its parameters:
+</p>
+<ul><li> <b>hold</b> - (id) A semicolon delimited list of guids or groupdef ids to hold.
+</li><li> <b>component</b> - (id) A parameter alias for hold.
+</li><li> <b>param</b> - (id) A parameter alias for hold.
+</li><li> <b>noshowcmdbar</b> - (bool) Setting this flag will disable the Wasabi command bar.
+</li><li> <b>noanimatedrects</b> - (bool) Setting this flag will disable animated rectangle motion.
+</li><li> <b>disableanimatedrects</b> - (bool) A parameter alias for noanimatedrects.
+</li><li> <b>autoopen</b> - (bool) Setting this flag will cause the object to auto open.
+</li><li> <b>autoclose</b> - (bool) Setting this flag will cause the object to auto close.
+</li></ul>
+<p>Using a wndholder object indicates to the system that you want to be the "container of record" for the possible requested guids when they are launched by the system through, for instance, the C++ coder registering his window class with registerAutopopup(), which calls the underlying api-&gt;skinwnd_createByGuid().  The container within which this wndholder is instantiated should also be given a component parameter with the same values.  This component parameter is simply a hint to Wasabi that a wndholder object that will accept that component parameter lives within the container.
+</p><p><br />
+</p>
+<a name=".3Cobjdirview.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=44" title="Edit section: &amp;lt;objdirview/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;objdirview/&gt;</span></h2>
+<p>The objdirview object displays a tree of hierarchical information to the user, based on a code concept called an Object Directory.  An Object Directory is, in essence, just a container of arbitrary items so this object is merely the display of its contents.  Here are its parameters:
+</p>
+<ul><li> <b>dir</b> - (str) The string identifier of the objdir to which this object should connect.
+</li><li> <b>target</b> - (id) The id of an object to which this object may direct the actions of its internal items being selected.
+</li><li> <b>displaytarget</b> - (id) The id of a customobject which will be assigned to display the display group parameter of the currently selected objdir item.
+</li><li> <b>defaultdisplay</b> - (id) The id of a groupdef to display inside displaytarget if no objdir items are selected.
+</li></ul>
+<p>When items in the objdirview are selected, the objdir is sent an event telling it that an item was selected.  The target parameter from XML is included in the data sent in that event.   However, the implemented functionality for that event is wholly at the discretion of the programmer implementing the specific objdir in question.  For the QueryDir object used in Winamp3's media library, the target param is for a nearby queryline object to be told the selection is changing.  Your mileage may vary with other objects.
+</p>
+<a name=".3CWasabi:PathPicker.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=45" title="Edit section: &amp;lt;Wasabi:PathPicker/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;Wasabi:PathPicker/&gt;</span></h2>
+<p>The Wasabi:PathPicker object is a simple object to display a text string of a directory path chosen by the user.  When the user clicks on the object, a dir selection service is started, allowing the user to choose a directory path.  Attach this object to a string configuration attribute and you have a simple way for users to choose directories as preferences.  The Wasabi:PathPicker object has no unique parameters.
+</p>
+<a name=".3Cquerydrag.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=46" title="Edit section: &amp;lt;querydrag/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;querydrag/&gt;</span></h2>
+<p>The querydrag object is used to create a visual "drag source" for a nearby queryresults object.  The user may click and drag this object and by doing so representationally drag the text of the current query in the queryresults object (which can be dropped into a playlist editor to fill its contents with the results of that query).  It has only two parameters:
+</p>
+<ul><li> <b>image</b> - (id) The bitmap element to display.
+</li><li> <b>source</b> - (id) The source queryresults object.  Default is the nearest.
+</li></ul>
+<p>If no valid source can be found, this object silently fails to drag.
+</p>
+<a name=".3Cqueryline.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=47" title="Edit section: &amp;lt;queryline/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;queryline/&gt;</span></h2>
+<p>The invisible queryline object is used to host a text query to be applied to a queryresults object.  One possible use would be to write a script linking the text in a Wasabi:HistoryEditBox to the query parameter of a queryline.  And, speaking of its parameters, here they are:
+</p>
+<ul><li> <b>querylist</b> - (id) The id of the queryresults which will take the query.  Default is to not connect (ie: this param is kinda sorta mandatoryish if you want anything interesting to happen).
+</li><li> <b>query</b> - (str) The string of the query itself.
+</li><li> <b>auto</b> - (bool) Whether or not to execute an autoquery based on the query parameter (ie: "search on the name column for this substring" instead of "run this query").  Default is to use the string directly as a query (not autoquery).
+</li></ul>
+<a name=".3Cqueryresults.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_GUI_Objects&amp;action=edit&amp;section=48" title="Edit section: &amp;lt;queryresults/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;queryresults/&gt;</span></h2>
+<p>The queryresults object is the an invisible binding object that coordinates the filtration of the database by numerous multiple other objects.  The queryline and filterlist objects eventually define a single output from the database, and this information is kept in the queryresults object.  It has only one parameter:
+title - (str) The human readable title for your queryresults.  I have no idea why this would be important.
+Magically, it seems, placing a queryresults object in the same group next to a PlaylistEditor object makes that PlaylistEditor get filled with the queryresults information.  I have no idea how this can be, and sense the telltale signs of powerful dark necromancy at work, here.
+</p>
+<!-- Saved in parser cache with key scwiki:pcache:idhash:71-0!1!0!!en!2 and timestamp 20100107231131 -->
+<div class="printfooter">
+Retrieved from "<a href="http://wiki.skinconsortium.com/index.php?title=XML_GUI_Objects">http://wiki.skinconsortium.com/index.php?title=XML_GUI_Objects</a>"</div>
+						<!-- end content -->
+			<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+						 <li id="ca-nstab-main" class="selected"><a href="/index.php?title=XML_GUI_Objects">Article</a></li>
+						 <li id="ca-talk" class="new"><a href="/index.php?title=Talk:XML_GUI_Objects&amp;action=edit">Discussion</a></li>
+						 <li id="ca-edit"><a href="/index.php?title=XML_GUI_Objects&amp;action=edit">Edit</a></li>
+						 <li id="ca-history"><a href="/index.php?title=XML_GUI_Objects&amp;action=history">History</a></li>
+				</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/index.php?title=Special:Userlogin&amp;returnto=XML_GUI_Objects">Log in / create account</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://www.skinconsortium.com/images/wiki/scwiki_logo2.png);" href="/index.php?title=Main_Page" title="Main Page"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class='portlet' id='p-navigation'>
+		<h5>Navigation</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage"><a href="/index.php?title=Main_Page">Main Page</a></li>
+				<li id="n-portal"><a href="/index.php?title=ScWiki:Community_Portal">Community portal</a></li>
+				<li id="n-currentevents"><a href="/index.php?title=Current_events">Current events</a></li>
+				<li id="n-recentchanges"><a href="/index.php?title=Special:Recentchanges">Recent changes</a></li>
+				<li id="n-randompage"><a href="/index.php?title=Special:Random">Random page</a></li>
+				<li id="n-help"><a href="/index.php?title=Help:Contents">Help</a></li>
+				<li id="n-sitesupport"><a href="/index.php?title=ScWiki:Site_support">Donations</a></li>
+			</ul>
+		</div>
+	</div>
+		<div class='portlet' id='p-Skin_consortium_site'>
+		<h5>Skin consortium site</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-SC-homepage"><a href="http://www.skinconsortium.com">SC homepage</a></li>
+				<li id="n-SC-forums"><a href="http://forums.skinconsortium.com">SC forums</a></li>
+			</ul>
+		</div>
+	</div>
+		<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/index.php?title=Special:Search" id="searchform"><div>
+				<input id="searchInput" name="search" type="text" accesskey="f" value="" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" />
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/index.php?title=Special:Whatlinkshere/XML_GUI_Objects">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/index.php?title=Special:Recentchangeslinked/XML_GUI_Objects">Related changes</a></li>
+<li id="t-upload"><a href="/index.php?title=Special:Upload">Upload file</a></li>
+<li id="t-specialpages"><a href="/index.php?title=Special:Specialpages">Special pages</a></li>
+				<li id="t-print"><a href="/index.php?title=XML_GUI_Objects&amp;printable=yes">Printable version</a></li>				<li id="t-permalink"><a href="/index.php?title=XML_GUI_Objects&amp;oldid=488">Permanent link</a></li>			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" /></a></div>
+			<ul id="f-list">
+				<li id="lastmod"> This page was last modified 18:39, 9 July 2008.</li>
+				<li id="viewcount">This page has been accessed 1,301 times.</li>
+				<li id="privacy"><a href="/index.php?title=ScWiki:Privacy_policy" title="ScWiki:Privacy policy">Privacy policy</a></li>
+				<li id="about"><a href="/index.php?title=ScWiki:About" title="ScWiki:About">About ScWiki</a></li>
+				<li id="disclaimer"><a href="/index.php?title=ScWiki:General_disclaimer" title="ScWiki:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+		
+	
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+</div>
+<!-- Served by wiki.skinconsortium.com in 0.810 secs. --></body></html>

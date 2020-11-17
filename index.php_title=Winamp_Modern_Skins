@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="keywords" content="Winamp Modern Skins,Maki Reference,Maki Scripts,Preparing the Winamp skin file,Winamp,Winamp Classic Skins,XML Containing objects,XML Elements,XML GUI Objects,XML Reference,Color themes" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="ScWiki (English)" />
+		<title>Winamp Modern Skins - ScWiki</title>
+		<style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "/skins/monobook/main.css?42b"; /*]]>*/</style>
+		<link rel="stylesheet" type="text/css" media="print" href="/skins/common/commonPrint.css?42b" />
+		<link rel="stylesheet" type="text/css" media="handheld" href="/skins/monobook/handheld.css?42b" />
+		<!--[if lt IE 5.5000]><style type="text/css">@import "/skins/monobook/IE50Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 5.5000]><style type="text/css">@import "/skins/monobook/IE55Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 6]><style type="text/css">@import "/skins/monobook/IE60Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 7]><style type="text/css">@import "/skins/monobook/IE70Fixes.css?42b";</style><![endif]-->
+		<!--[if lt IE 7]><script type="text/javascript" src="/skins/common/IEFixes.js?42b"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+		
+		<script type= "text/javascript">/*<![CDATA[*/
+var skin = "monobook";
+var stylepath = "/skins";
+var wgArticlePath = "/index.php?title=$1";
+var wgScriptPath = "";
+var wgServer = "http://wiki.skinconsortium.com";
+var wgCanonicalNamespace = "";
+var wgCanonicalSpecialPageName = false;
+var wgNamespaceNumber = 0;
+var wgPageName = "Winamp_Modern_Skins";
+var wgTitle = "Winamp Modern Skins";
+var wgArticleId = "2";
+var wgIsArticle = true;
+var wgUserName = null;
+var wgUserLanguage = "en";
+var wgContentLanguage = "en";
+var wgBreakFrames = false;
+var wgCurRevisionId = "496";
+/*]]>*/</script>
+                
+		<script type="text/javascript" src="/skins/common/wikibits.js?42b"><!-- wikibits js --></script>
+		<script type="text/javascript" src="/index.php?title=-&amp;action=raw&amp;gen=js"><!-- site js --></script>
+		<style type="text/css">/*<![CDATA[*/
+@import "/index.php?title=MediaWiki:Common.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=MediaWiki:Monobook.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=-&action=raw&gen=css&maxage=18000";
+/*]]>*/</style>
+		<!-- Head Scripts -->
+			</head>
+<body  class="mediawiki ns-0 ltr page-Winamp_Modern_Skins">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<h1 class="firstHeading">Winamp Modern Skins</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From ScWiki</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<table id="toc" class="toc" summary="Contents"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1"><a href="#What_is_it_and_what_it_is_eaten_with"><span class="tocnumber">1</span> <span class="toctext">What is it and what it is eaten with</span></a></li>
+<li class="toclevel-1"><a href="#Skin_Consortium_Skins"><span class="tocnumber">2</span> <span class="toctext">Skin Consortium Skins</span></a></li>
+<li class="toclevel-1"><a href="#Creating_Winamp_Modern_Skins"><span class="tocnumber">3</span> <span class="toctext">Creating Winamp Modern Skins</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Overview"><span class="tocnumber">3.1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-2"><a href="#Graphics_for_the_skin"><span class="tocnumber">3.2</span> <span class="toctext">Graphics for the skin</span></a></li>
+<li class="toclevel-2"><a href="#XML_Code"><span class="tocnumber">3.3</span> <span class="toctext">XML Code</span></a></li>
+<li class="toclevel-2"><a href="#Maki_Code"><span class="tocnumber">3.4</span> <span class="toctext">Maki Code</span></a></li>
+<li class="toclevel-2"><a href="#Publishing_the_skin"><span class="tocnumber">3.5</span> <span class="toctext">Publishing the skin</span></a></li>
+<li class="toclevel-2"><a href="#References"><span class="tocnumber">3.6</span> <span class="toctext">References</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a></li>
+</ul>
+</td></tr></table><script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+<a name="What_is_it_and_what_it_is_eaten_with"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skins&amp;action=edit&amp;section=1" title="Edit section: What is it and what it is eaten with">edit</a>]</span> <span class="mw-headline"> What is it and what it is eaten with </span></h2>
+<dl><dt>Winamp Modern Skin</dt><dd> an interface for <a href="/index.php?title=Winamp" title="Winamp">Winamp</a>, that makes it look different.
+</dd></dl>
+<p>The main features of Modern Skins are that they have free-shapes, many effects and independent element sizes and positions.
+</p><p>Drawbacks of such skins are that they usually use lots of CPU resources, may have hard to use layout and are sometimes too large or small.
+</p><p>From the artist's point of view, Modern skins give a lot of advantages for skin creator, but require skills for coding and time to learn the basics of it.
+</p>
+<a name="Skin_Consortium_Skins"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skins&amp;action=edit&amp;section=2" title="Edit section: Skin Consortium Skins">edit</a>]</span> <span class="mw-headline"> Skin Consortium Skins </span></h2>
+<p><a href="http://www.skinconsortium.com/index.php?page=downloads" class="external text" title="http://www.skinconsortium.com/index.php?page=downloads" rel="nofollow">Download SC skins</a>
+</p>
+<a name="Creating_Winamp_Modern_Skins"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skins&amp;action=edit&amp;section=3" title="Edit section: Creating Winamp Modern Skins">edit</a>]</span> <span class="mw-headline"> Creating Winamp Modern Skins </span></h2>
+<a name="Overview"></a><h3><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skins&amp;action=edit&amp;section=4" title="Edit section: Overview">edit</a>]</span> <span class="mw-headline"> Overview</span></h3>
+<p>Winamp Modern Skin creation can be divided into three groups:
+</p>
+<ol><li> Graphics of the skin
+</li><li> XML code
+</li><li> Maki code
+</li></ol>
+<p>The first and the second are required to make the skin while the third is optional. The following sections are written for beginning artists, who want to make a skin, but don't know what to begin with. These sections are about what parts of <a href="/index.php?title=Winamp" title="Winamp">Winamp</a> are skinnable, what is possible and what is not.
+</p><p>The graphics is how the skin should look like.
+</p><p>XML files contain information about different objects in the skin, such as buttons, sliders and other.
+</p><p>Maki code can help making some cool effects as moving, disappearing or appearing of objects and some heavy actions.
+</p>
+<a name="Graphics_for_the_skin"></a><h3><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skins&amp;action=edit&amp;section=5" title="Edit section: Graphics for the skin">edit</a>]</span> <span class="mw-headline"> Graphics for the skin </span></h3>
+<p>You should draw all images for the skin as it should look like. You can make as many images as you want, and you may put several images into one file, as when coding you will be able to get multiple rectangular images from it, just don't make them intersect.
+You should also keep in mind that <a href="/index.php?title=Winamp" title="Winamp">Winamp</a> supports <a href="/index.php?title=Color_themes&amp;action=edit" class="new" title="Color themes">color themes</a>, so make the graphics using such colors that can be easily converted to other by increasing or decreasing R,G or B components (the graphics may even not resemble the colors you want, you will make it later, while coding).
+</p><p>The last suggestion is that if you don't know the capabilities of <a href="/index.php?title=Winamp" title="Winamp">Winamp</a>, don't think of what you will be able to do and what you won't. Think that <a href="/index.php?title=Winamp" title="Winamp">Winamp</a> is capable of everything when speaking of visual effects. It is almost true and if you won't be able to do some effect then you will just remove it from the skin. If you still have doubts, for example if you are not sure in the main effect, then you can always ask on <a href="http://forums.winamp.com/forumdisplay.php?forumid=123" class="external text" title="http://forums.winamp.com/forumdisplay.php?forumid=123" rel="nofollow">Winamp forum</a> or here on <a href="http://forums.skinconsortium.com/board.php?boardid=19" class="external text" title="http://forums.skinconsortium.com/board.php?boardid=19" rel="nofollow">SC forum</a>.
+</p><p>As for the file format, you can use different file formats for the skin, but the best choice would be PNG (.png) format, that compresses images with no quality reduce and <b>supports transparency</b>, that is very important for <strong class="selflink">Winamp Modern Skins</strong>.
+</p><p>When organising the images for the skin, two variants are suggested:
+</p>
+<ol><li> The first is to put different elements into different files, using some order. ( For example, putting normal, hover and pressed images of the button in button.png near each other)
+</li><li> The second is to make files with background, elements, button images, ets. and to put images into their correct position. (For example, you want to make a skin 100x100px, with button with coordinates (10,20). You make a file buttons.png 100x100px and put an image of a button on (10,20) position and the same with other buttons to the same file)
+</li></ol>
+<a name="XML_Code"></a><h3><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skins&amp;action=edit&amp;section=6" title="Edit section: XML Code">edit</a>]</span> <span class="mw-headline">XML Code</span></h3>
+<p>When the images are ready, it is time to put them into the skin. This is done by XML coding.
+</p><p>First of all, XML files contains information of what <a href="/index.php?title=XML_Elements#.3Cbitmap.2F.3E" title="XML Elements">bitmaps</a>, <a href="/index.php?title=XML_Elements#.3Cfont.2F.3E" title="XML Elements">fonts</a> and <a href="/index.php?title=XML_Elements#.3Ccolor.2F.3E" title="XML Elements">colors</a> (they are called elements) are to be used in the skin, and what gammagroups they are in.
+</p><p>Then XML files contain information about <a href="/index.php?title=XML_GUI_Objects#.3Cgroup.2F.3E" title="XML GUI Objects">groups</a> of objects, called <a href="/index.php?title=XML_Reference#Gui_Objects" title="XML Reference">Xui Objects</a>. They are called just objects below. Objects can be <a href="/index.php?title=XML_GUI_Objects#.3Cimages.2F.3E" title="XML GUI Objects">images</a> or <a href="/index.php?title=XML_GUI_Objects#.3Clayer.2F.3E" title="XML GUI Objects">layers</a>, or they can be <a href="/index.php?title=XML_GUI_Objects#.3Cbutton.2F.3E_.26_.3Ctogglebutton.2F.3E" title="XML GUI Objects">buttons</a>, <a href="/index.php?title=XML_GUI_Objects#.3Cslider.2F.3E" title="XML GUI Objects">sliders</a>, <a href="/index.php?title=XML_GUI_Objects#.3Ctext.2F.3E" title="XML GUI Objects">texts</a> and many others. There are also ways to create own objects. Most of the objects require one or more <a href="/index.php?title=XML_Reference#Elements" title="XML Reference">elements</a> as a part of them, for example every <a href="/index.php?title=XML_GUI_Objects#.3Clayer.2F.3E" title="XML GUI Objects">layer</a> requires a <a href="/index.php?title=XML_Elements#.3Cbitmap.2F.3E" title="XML Elements">bitmap</a>, though several objects can use one and the same element. Every object has his position inside the group and several parameters. A group can contain other groups as its objects. One <a href="/index.php?title=XML_GUI_Objects#.3Cgroup.2F.3E" title="XML GUI Objects">group</a> may be a subgroup to several <a href="/index.php?title=XML_GUI_Objects#.3Cgroup.2F.3E" title="XML GUI Objects">groups</a>. That means several duplicates of the group.
+</p><p>The highest level group is called a <a href="/index.php?title=XML_Containing_objects#.3Clayout.3E.3C.2Flayout.3E" title="XML Containing objects">layout</a>, it has more parameters than the ordinary group (like <i>background</i>) and it is the group we see when we look at the window.
+</p><p>A window itself is defined by a <a href="/index.php?title=XML_Containing_objects#.3Ccontainer.3E.3C.2Fcontainer.3E" title="XML Containing objects">container</a>, that has several <a href="/index.php?title=XML_Containing_objects#.3Clayout.3E.3C.2Flayout.3E" title="XML Containing objects">layouts</a>, that can be switched from one to another, but can never appear at the same time. They are different modes of a window (Most usual modes are - normal, shade, fullscreen, mini). The only required container is the one, that defines "Main Window", and it should have at least one layout.
+</p><p>If a window is not declared specially, it uses one of the specially defined <a href="/index.php?title=XML_GUI_Objects#.3Cgroup.2F.3E" title="XML GUI Objects">groups</a> as a <a href="/index.php?title=XML_Containing_objects#.3Clayout.3E.3C.2Flayout.3E" title="XML Containing objects">layout</a> to make itself. This groups can be made by the coder of the skin.
+</p><p>When elements are declared, containers have layouts inside them, groups and objects are inside layouts and there are no mistakes, and there are all of the required objects, the skin can be loaded fore the first time.  It is recommended of course to make as little as possible before first load, just required objects, and then to add more and to check on errors as often as possible to find mistakes easier.
+</p>
+<a name="Maki_Code"></a><h3><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skins&amp;action=edit&amp;section=7" title="Edit section: Maki Code">edit</a>]</span> <span class="mw-headline">Maki Code</span></h3>
+<p>Now it is time for the optional part of Modern Skinning.
+</p>
+<dl><dt>MAKI</dt><dd> Make A Killer Interface, and you bet the phrase tells all about it.
+</dd></dl>
+<p>Maki code is the most difficult, the most interesting part of the skin. It is <i>optional</i> for the skin, but it is required for a good skin. A dead skin, made in previous two sections, requires a blow of life and maki is it.
+</p><p>The maki code made consists of algorithms, triggered on various events, like some <i>object</i> pressed or keyboard button pressed of window opened or closed or almost any other event, that has something to do with <a href="/index.php?title=Winamp" title="Winamp">Winamp</a>. It can even be triggered periodically. Inside the algorithms any parameter of any object can be changed (its coordinates, opacity, <i>elements</i>, ets.). Algorithm can also change <a href="/index.php?title=Winamp" title="Winamp">Winamp</a> state (Playing, paused, minimized, ets...) and change parameters (repeat, crossfade and others). One of the most interesting parts of Maki is that it can create menus. And it is Maki, that allows the skinner to save some things about the skin to load them with the next <a href="/index.php?title=Winamp" title="Winamp">Winamp</a> load and thus saving some state.
+</p><p>Summarising, Maki can do anything, requested by skinner.
+</p><p>Its language comes directly from C++. Yes, it is difficult, but it is worth it, and the artist shouldn't forget that there are several <a href="/index.php?title=Maki_Scripts" title="Maki Scripts">Maki Scripts</a> ready, that allows the skinner not to learn the language, but to use some functions already made.
+</p>
+<a name="Publishing_the_skin"></a><h3><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skins&amp;action=edit&amp;section=8" title="Edit section: Publishing the skin">edit</a>]</span> <span class="mw-headline">  Publishing the skin </span></h3>
+<ul><li> <a href="/index.php?title=Preparing_the_Winamp_skin_file" title="Preparing the Winamp skin file">Preparing the Winamp skin file</a>
+</li><li> Publishing on the web
+</li></ul>
+<a name="References"></a><h3><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skins&amp;action=edit&amp;section=9" title="Edit section: References">edit</a>]</span> <span class="mw-headline"> References </span></h3>
+<ul><li> <a href="/index.php?title=XML_Reference" title="XML Reference">XML Reference</a>
+</li><li> <a href="/index.php?title=Maki_Reference" title="Maki Reference">Maki Reference</a>
+</li></ul>
+<a name="See_also"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skins&amp;action=edit&amp;section=10" title="Edit section: See also">edit</a>]</span> <span class="mw-headline"> See also </span></h2>
+<p><a href="/index.php?title=Winamp_Classic_Skins" title="Winamp Classic Skins">Winamp Classic Skins</a>
+</p><p><br />
+<a href="http://www.skinconsortium.com/" class="external text" title="http://www.skinconsortium.com/" rel="nofollow">Winamp Skinning</a>
+</p>
+<!-- Saved in parser cache with key scwiki:pcache:idhash:2-0!1!0!!en!2 and timestamp 20091024133822 -->
+<div class="printfooter">
+Retrieved from "<a href="http://wiki.skinconsortium.com/index.php?title=Winamp_Modern_Skins">http://wiki.skinconsortium.com/index.php?title=Winamp_Modern_Skins</a>"</div>
+						<!-- end content -->
+			<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+						 <li id="ca-nstab-main" class="selected"><a href="/index.php?title=Winamp_Modern_Skins">Article</a></li>
+						 <li id="ca-talk" class="new"><a href="/index.php?title=Talk:Winamp_Modern_Skins&amp;action=edit">Discussion</a></li>
+						 <li id="ca-edit"><a href="/index.php?title=Winamp_Modern_Skins&amp;action=edit">Edit</a></li>
+						 <li id="ca-history"><a href="/index.php?title=Winamp_Modern_Skins&amp;action=history">History</a></li>
+				</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/index.php?title=Special:Userlogin&amp;returnto=Winamp_Modern_Skins">Log in / create account</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://www.skinconsortium.com/images/wiki/scwiki_logo2.png);" href="/index.php?title=Main_Page" title="Main Page"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class='portlet' id='p-navigation'>
+		<h5>Navigation</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage"><a href="/index.php?title=Main_Page">Main Page</a></li>
+				<li id="n-portal"><a href="/index.php?title=ScWiki:Community_Portal">Community portal</a></li>
+				<li id="n-currentevents"><a href="/index.php?title=Current_events">Current events</a></li>
+				<li id="n-recentchanges"><a href="/index.php?title=Special:Recentchanges">Recent changes</a></li>
+				<li id="n-randompage"><a href="/index.php?title=Special:Random">Random page</a></li>
+				<li id="n-help"><a href="/index.php?title=Help:Contents">Help</a></li>
+				<li id="n-sitesupport"><a href="/index.php?title=ScWiki:Site_support">Donations</a></li>
+			</ul>
+		</div>
+	</div>
+		<div class='portlet' id='p-Skin_consortium_site'>
+		<h5>Skin consortium site</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-SC-homepage"><a href="http://www.skinconsortium.com">SC homepage</a></li>
+				<li id="n-SC-forums"><a href="http://forums.skinconsortium.com">SC forums</a></li>
+			</ul>
+		</div>
+	</div>
+		<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/index.php?title=Special:Search" id="searchform"><div>
+				<input id="searchInput" name="search" type="text" accesskey="f" value="" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" />
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/index.php?title=Special:Whatlinkshere/Winamp_Modern_Skins">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/index.php?title=Special:Recentchangeslinked/Winamp_Modern_Skins">Related changes</a></li>
+<li id="t-upload"><a href="/index.php?title=Special:Upload">Upload file</a></li>
+<li id="t-specialpages"><a href="/index.php?title=Special:Specialpages">Special pages</a></li>
+				<li id="t-print"><a href="/index.php?title=Winamp_Modern_Skins&amp;printable=yes">Printable version</a></li>				<li id="t-permalink"><a href="/index.php?title=Winamp_Modern_Skins&amp;oldid=496">Permanent link</a></li>			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" /></a></div>
+			<ul id="f-list">
+				<li id="lastmod"> This page was last modified 15:59, 10 September 2008.</li>
+				<li id="viewcount">This page has been accessed 2,950 times.</li>
+				<li id="privacy"><a href="/index.php?title=ScWiki:Privacy_policy" title="ScWiki:Privacy policy">Privacy policy</a></li>
+				<li id="about"><a href="/index.php?title=ScWiki:About" title="ScWiki:About">About ScWiki</a></li>
+				<li id="disclaimer"><a href="/index.php?title=ScWiki:General_disclaimer" title="ScWiki:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+		
+	
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+</div>
+<!-- Served by wiki.skinconsortium.com in 1.776 secs. --></body></html>

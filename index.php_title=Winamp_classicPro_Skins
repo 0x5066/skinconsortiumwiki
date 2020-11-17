@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="keywords" content="Winamp classicPro Skins" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="ScWiki (English)" />
+		<title>Winamp classicPro Skins - ScWiki</title>
+		<style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "/skins/monobook/main.css?42b"; /*]]>*/</style>
+		<link rel="stylesheet" type="text/css" media="print" href="/skins/common/commonPrint.css?42b" />
+		<link rel="stylesheet" type="text/css" media="handheld" href="/skins/monobook/handheld.css?42b" />
+		<!--[if lt IE 5.5000]><style type="text/css">@import "/skins/monobook/IE50Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 5.5000]><style type="text/css">@import "/skins/monobook/IE55Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 6]><style type="text/css">@import "/skins/monobook/IE60Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 7]><style type="text/css">@import "/skins/monobook/IE70Fixes.css?42b";</style><![endif]-->
+		<!--[if lt IE 7]><script type="text/javascript" src="/skins/common/IEFixes.js?42b"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+		
+		<script type= "text/javascript">/*<![CDATA[*/
+var skin = "monobook";
+var stylepath = "/skins";
+var wgArticlePath = "/index.php?title=$1";
+var wgScriptPath = "";
+var wgServer = "http://wiki.skinconsortium.com";
+var wgCanonicalNamespace = "";
+var wgCanonicalSpecialPageName = false;
+var wgNamespaceNumber = 0;
+var wgPageName = "Winamp_classicPro_Skins";
+var wgTitle = "Winamp classicPro Skins";
+var wgArticleId = "87";
+var wgIsArticle = true;
+var wgUserName = null;
+var wgUserLanguage = "en";
+var wgContentLanguage = "en";
+var wgBreakFrames = false;
+var wgCurRevisionId = "497";
+/*]]>*/</script>
+                
+		<script type="text/javascript" src="/skins/common/wikibits.js?42b"><!-- wikibits js --></script>
+		<script type="text/javascript" src="/index.php?title=-&amp;action=raw&amp;gen=js"><!-- site js --></script>
+		<style type="text/css">/*<![CDATA[*/
+@import "/index.php?title=MediaWiki:Common.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=MediaWiki:Monobook.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=-&action=raw&gen=css&maxage=18000";
+/*]]>*/</style>
+		<!-- Head Scripts -->
+			</head>
+<body  class="mediawiki ns-0 ltr page-Winamp_classicPro_Skins">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<h1 class="firstHeading">Winamp classicPro Skins</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From ScWiki</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<p><a href="/index.php?title=Image:Cpro.png" class="image" title="Image:Cpro.png"><img src="/images/3/32/Cpro.png" alt="Image:Cpro.png" width="900" height="900" longdesc="/index.php?title=Image:Cpro.png" /></a>
+</p>
+<table id="toc" class="toc" summary="Contents"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1"><a href="#How_to_make_your_own_classicPro.C2.A9_skin"><span class="tocnumber">1</span> <span class="toctext">How to make your own classicPro© skin</span></a>
+<ul>
+<li class="toclevel-2"><a href="#art_aolradio.png_.2C_art_shoutcast.png_.2C_art_notfound.png"><span class="tocnumber">1.1</span> <span class="toctext">art_aolradio.png , art_shoutcast.png , art_notfound.png</span></a></li>
+<li class="toclevel-2"><a href="#beat_left.png_.2C_beat_right.png"><span class="tocnumber">1.2</span> <span class="toctext">beat_left.png , beat_right.png</span></a></li>
+<li class="toclevel-2"><a href="#buttons.png"><span class="tocnumber">1.3</span> <span class="toctext">buttons.png</span></a></li>
+<li class="toclevel-2"><a href="#colors.xml"><span class="tocnumber">1.4</span> <span class="toctext">colors.xml</span></a></li>
+<li class="toclevel-2"><a href="#comp_but.png"><span class="tocnumber">1.5</span> <span class="toctext">comp_but.png</span></a></li>
+<li class="toclevel-2"><a href="#eq.png"><span class="tocnumber">1.6</span> <span class="toctext">eq.png</span></a></li>
+<li class="toclevel-2"><a href="#mainframe.png"><span class="tocnumber">1.7</span> <span class="toctext">mainframe.png</span></a></li>
+<li class="toclevel-2"><a href="#numfont.png"><span class="tocnumber">1.8</span> <span class="toctext">numfont.png</span></a></li>
+<li class="toclevel-2"><a href="#promo.png"><span class="tocnumber">1.9</span> <span class="toctext">promo.png</span></a></li>
+<li class="toclevel-2"><a href="#Readme.txt"><span class="tocnumber">1.10</span> <span class="toctext">Readme.txt</span></a></li>
+<li class="toclevel-2"><a href="#screenshot.png"><span class="tocnumber">1.11</span> <span class="toctext">screenshot.png</span></a></li>
+<li class="toclevel-2"><a href="#scrollbars.png"><span class="tocnumber">1.12</span> <span class="toctext">scrollbars.png</span></a></li>
+<li class="toclevel-2"><a href="#seekvol.png"><span class="tocnumber">1.13</span> <span class="toctext">seekvol.png</span></a></li>
+<li class="toclevel-2"><a href="#shade.png"><span class="tocnumber">1.14</span> <span class="toctext">shade.png</span></a></li>
+<li class="toclevel-2"><a href="#skins.xml"><span class="tocnumber">1.15</span> <span class="toctext">skins.xml</span></a></li>
+<li class="toclevel-2"><a href="#songinfo.png"><span class="tocnumber">1.16</span> <span class="toctext">songinfo.png</span></a></li>
+<li class="toclevel-2"><a href="#suiframe.png"><span class="tocnumber">1.17</span> <span class="toctext">suiframe.png</span></a></li>
+<li class="toclevel-2"><a href="#skin.maki"><span class="tocnumber">1.18</span> <span class="toctext">skin.maki</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+<a name="How_to_make_your_own_classicPro.C2.A9_skin"></a><h1><span class="editsection">[<a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit&amp;section=1" title="Edit section: How to make your own classicPro© skin">edit</a>]</span> <span class="mw-headline">How to make your own classicPro© skin</span></h1>
+<p>To make your own skin you must make a copy of the bundled ClassicPro skin, currently "cPro - Big Bento", and then start editing your all the files you'll find in the skin folder. After your finished editing all your graphics, you must zip all the files in the folder and rename the .zip file to a .wal file. Please also make sure that the name of your skin starts with "cPro -" so that all the classicPro skins can be found together in the Winamp skins menu.
+</p><p><br />
+</p>
+<a name="art_aolradio.png_.2C_art_shoutcast.png_.2C_art_notfound.png"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit&amp;section=2" title="Edit section: art_aolradio.png , art_shoutcast.png , art_notfound.png">edit</a>]</span> <span class="mw-headline">art_aolradio.png , art_shoutcast.png , art_notfound.png</span></h2>
+<p>These pictures will be displayed in the AlbumArt areas when the media that you're playing doesnt have a custom picture to display.
+Can be any size
+Will be stretched to size
+Please note that you can save your image in jpeg format. You must just remember to rename the .jpg file to png  . Winamp will know its a jpeg file so you dont have to worry about that. This is useful if you want to reduce the size of your skin
+</p><p><br />
+</p>
+<a name="beat_left.png_.2C_beat_right.png"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit&amp;section=3" title="Edit section: beat_left.png , beat_right.png">edit</a>]</span> <span class="mw-headline">beat_left.png , beat_right.png</span></h2>
+<p>The above two pictures must be the same width because they will be centered in the skin.
+You can use any width that you want
+Each frame have a height of 45 pixels
+If the picture is only 45 pixels high(aka have only one frame), that image will be used to generate the animation.
+The one-frame method is very easy to do so please check it out. The multiple frame one offers better custom stuff though  
+If the picture is only 90 pixels high(aka have only twoframe), the second frame will be used as a background and the first frame will be rendered as the 1frame method above. See "cPro - Big Bento"
+The one-frame method is very easy to do so please check it out. The multiple frame one offers better custom stuff though  
+</p><p><br />
+</p>
+<a name="buttons.png"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit&amp;section=4" title="Edit section: buttons.png">edit</a>]</span> <span class="mw-headline">buttons.png</span></h2>
+<p>Very basic stuff here. You'll see what is what.
+If you dont want a menu in your skin you must make the menubar background gfx the following color (255,0,12 . Thus if this(x=0,y=87) is that color, the menu will always be hidden.
+Also have the ratings stars
+</p><p><br />
+</p>
+<a name="colors.xml"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit&amp;section=5" title="Edit section: colors.xml">edit</a>]</span> <span class="mw-headline">colors.xml</span></h2>
+<p>Here you'll find all the colors of the text, Lists, Playlist &amp; MediaLibrary
+This file will be cleaned up someday(soon). If anyone wants to do it please share  
+</p><p><br />
+</p>
+<a name="comp_but.png"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit&amp;section=6" title="Edit section: comp_but.png">edit</a>]</span> <span class="mw-headline">comp_but.png</span></h2>
+<p>This file contains all the small component buttons
+Buttons included area as follow:
+Playlist, Visualization, Generic(cover/vid/storedPL,InternetRadio,feature Stuff), Equalizer
+</p><p><br />
+</p>
+<a name="eq.png"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit&amp;section=7" title="Edit section: eq.png">edit</a>]</span> <span class="mw-headline">eq.png</span></h2>
+<p>Also pretty basic here.
+You'll see that there is two pictures for the band names. This is for the new Winamp5.51 equalizer modes. To enable them goto [Prefs >> General Prefs >> Playback >> Eq Tab]
+Might increase the size of the xfade buttons for the final release so keep this in mind. Feedback welcome.
+</p><p><br />
+</p>
+<a name="mainframe.png"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit&amp;section=8" title="Edit section: mainframe.png">edit</a>]</span> <span class="mw-headline">mainframe.png</span></h2>
+<p>This is the main player gfx for your skin
+To edit your classic vis colors you'll have to edit the colors found in the middle of the frame gfx. These colors will be read to the classic vis... so you dont need to specify them one for one anymore  
+</p><p><br />
+</p>
+<a name="numfont.png"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit&amp;section=9" title="Edit section: numfont.png">edit</a>]</span> <span class="mw-headline">numfont.png</span></h2>
+<p>Optional
+If this file isnt included, the numbers will be displayed using the color specified in the colours.xml file and the font used is Arial.
+</p><p><br />
+</p>
+<a name="promo.png"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit&amp;section=10" title="Edit section: promo.png">edit</a>]</span> <span class="mw-headline">promo.png</span></h2>
+<p>Optional
+This can be used to display a logo
+This is displayed when the beat vis isnt displayed, for what ever reason(not enough width or disabled)
+3 elements (full width 300 pixels, medium width 200 pixels, small width 99pixels)
+</p><p><br />
+</p>
+<a name="Readme.txt"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit&amp;section=11" title="Edit section: Readme.txt">edit</a>]</span> <span class="mw-headline">Readme.txt</span></h2>
+<p>This is a place to write comments about your skin. This is displayed in [Prefs >> Skins >> ModernSkins >> Current Skin Tab]
+</p><p><br />
+</p>
+<a name="screenshot.png"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit&amp;section=12" title="Edit section: screenshot.png">edit</a>]</span> <span class="mw-headline">screenshot.png</span></h2>
+<p>This is the preview thats displayed when some selects your skin in the Winamp installer. This might also be implemented someday in the Winamp skins selector so remember to add/edit this.
+</p><p><br />
+</p>
+<a name="scrollbars.png"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit&amp;section=13" title="Edit section: scrollbars.png">edit</a>]</span> <span class="mw-headline">scrollbars.png</span></h2>
+<p>These scrollbars is used in most list, except the playlist(playlist use generic button gfx[buttons.png])
+</p><p><br />
+</p>
+<a name="seekvol.png"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit&amp;section=14" title="Edit section: seekvol.png">edit</a>]</span> <span class="mw-headline">seekvol.png</span></h2>
+<p>Here you can edit the gfx for your seekbar and volumebar
+The seekbar have a 2 background images(normal, hover) and one foreground image that fills the screen as the track is being played.
+The volumebar only have one background image thats displayed on hover and one foreground image that change as the volume slider moves.
+TIP: You can make the slider thumb transparent to display only the background &amp; foreground.
+</p><p><br />
+</p>
+<a name="shade.png"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit&amp;section=15" title="Edit section: shade.png">edit</a>]</span> <span class="mw-headline">shade.png</span></h2>
+<p>Here you'll find all of the gfx for the shade(stick) mode of your cPro skin
+Everything is straight forward so you wont get stuck here  
+Just resize your skin to the max width to make sure that it looks right.
+</p><p><br />
+</p>
+<a name="skins.xml"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit&amp;section=16" title="Edit section: skins.xml">edit</a>]</span> <span class="mw-headline">skins.xml</span></h2>
+<p>This loads the classicPro plugin, so always remember this one  
+You must also edit your name and stuff here. This is displayed in the Winamp Skin Selector[Prefs >> Skins]
+</p><p><br />
+</p>
+<a name="songinfo.png"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit&amp;section=17" title="Edit section: songinfo.png">edit</a>]</span> <span class="mw-headline">songinfo.png</span></h2>
+<p>This picture contains the mono/stereo/surround logo's
+Also contain the small number font used to display the kbps/khz/mb
+</p><p><br />
+</p>
+<a name="suiframe.png"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit&amp;section=18" title="Edit section: suiframe.png">edit</a>]</span> <span class="mw-headline">suiframe.png</span></h2>
+<p>Here you'll find all the gfx for the Single-User-Interface related stuff like:
+The internal frame for components
+Two component frames with an alternative bottomleft image for frames like the AlbumArt.
+Frame sliders (Hor+Ver)
+Drawer Toggle button
+</p><p><br />
+</p>
+<a name="skin.maki"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit&amp;section=19" title="Edit section: skin.maki">edit</a>]</span> <span class="mw-headline">skin.maki</span></h2>
+<p>Comming SOON!
+This is used to warn the user if he doesnt have the classicPro plugin installed.
+</p><p><a href="http://www.skinconsortium.com/" class="external text" title="http://www.skinconsortium.com/" rel="nofollow">Winamp Skinning</a>
+</p>
+<!-- Saved in parser cache with key scwiki:pcache:idhash:87-0!1!0!!en!2 and timestamp 20091015093535 -->
+<div class="printfooter">
+Retrieved from "<a href="http://wiki.skinconsortium.com/index.php?title=Winamp_classicPro_Skins">http://wiki.skinconsortium.com/index.php?title=Winamp_classicPro_Skins</a>"</div>
+						<!-- end content -->
+			<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+						 <li id="ca-nstab-main" class="selected"><a href="/index.php?title=Winamp_classicPro_Skins">Article</a></li>
+						 <li id="ca-talk" class="new"><a href="/index.php?title=Talk:Winamp_classicPro_Skins&amp;action=edit">Discussion</a></li>
+						 <li id="ca-edit"><a href="/index.php?title=Winamp_classicPro_Skins&amp;action=edit">Edit</a></li>
+						 <li id="ca-history"><a href="/index.php?title=Winamp_classicPro_Skins&amp;action=history">History</a></li>
+				</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/index.php?title=Special:Userlogin&amp;returnto=Winamp_classicPro_Skins">Log in / create account</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://www.skinconsortium.com/images/wiki/scwiki_logo2.png);" href="/index.php?title=Main_Page" title="Main Page"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class='portlet' id='p-navigation'>
+		<h5>Navigation</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage"><a href="/index.php?title=Main_Page">Main Page</a></li>
+				<li id="n-portal"><a href="/index.php?title=ScWiki:Community_Portal">Community portal</a></li>
+				<li id="n-currentevents"><a href="/index.php?title=Current_events">Current events</a></li>
+				<li id="n-recentchanges"><a href="/index.php?title=Special:Recentchanges">Recent changes</a></li>
+				<li id="n-randompage"><a href="/index.php?title=Special:Random">Random page</a></li>
+				<li id="n-help"><a href="/index.php?title=Help:Contents">Help</a></li>
+				<li id="n-sitesupport"><a href="/index.php?title=ScWiki:Site_support">Donations</a></li>
+			</ul>
+		</div>
+	</div>
+		<div class='portlet' id='p-Skin_consortium_site'>
+		<h5>Skin consortium site</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-SC-homepage"><a href="http://www.skinconsortium.com">SC homepage</a></li>
+				<li id="n-SC-forums"><a href="http://forums.skinconsortium.com">SC forums</a></li>
+			</ul>
+		</div>
+	</div>
+		<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/index.php?title=Special:Search" id="searchform"><div>
+				<input id="searchInput" name="search" type="text" accesskey="f" value="" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" />
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/index.php?title=Special:Whatlinkshere/Winamp_classicPro_Skins">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/index.php?title=Special:Recentchangeslinked/Winamp_classicPro_Skins">Related changes</a></li>
+<li id="t-upload"><a href="/index.php?title=Special:Upload">Upload file</a></li>
+<li id="t-specialpages"><a href="/index.php?title=Special:Specialpages">Special pages</a></li>
+				<li id="t-print"><a href="/index.php?title=Winamp_classicPro_Skins&amp;printable=yes">Printable version</a></li>				<li id="t-permalink"><a href="/index.php?title=Winamp_classicPro_Skins&amp;oldid=497">Permanent link</a></li>			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" /></a></div>
+			<ul id="f-list">
+				<li id="lastmod"> This page was last modified 16:00, 10 September 2008.</li>
+				<li id="viewcount">This page has been accessed 2,307 times.</li>
+				<li id="privacy"><a href="/index.php?title=ScWiki:Privacy_policy" title="ScWiki:Privacy policy">Privacy policy</a></li>
+				<li id="about"><a href="/index.php?title=ScWiki:About" title="ScWiki:About">About ScWiki</a></li>
+				<li id="disclaimer"><a href="/index.php?title=ScWiki:General_disclaimer" title="ScWiki:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+		
+	
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+</div>
+<!-- Served by wiki.skinconsortium.com in 0.437 secs. --></body></html>

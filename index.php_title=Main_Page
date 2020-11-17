@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="keywords" content="Main Page,Best of Winamp Skins,Best of Xion Skins,General Coding,General Graphics,Maki Reference,Recommended Software,Skin Consortium,Winamp Classic Skins,Winamp Modern Skin Tutorial,Winamp Modern Skins" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="ScWiki (English)" />
+		<title>Main Page - ScWiki</title>
+		<style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "/skins/monobook/main.css?42b"; /*]]>*/</style>
+		<link rel="stylesheet" type="text/css" media="print" href="/skins/common/commonPrint.css?42b" />
+		<link rel="stylesheet" type="text/css" media="handheld" href="/skins/monobook/handheld.css?42b" />
+		<!--[if lt IE 5.5000]><style type="text/css">@import "/skins/monobook/IE50Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 5.5000]><style type="text/css">@import "/skins/monobook/IE55Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 6]><style type="text/css">@import "/skins/monobook/IE60Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 7]><style type="text/css">@import "/skins/monobook/IE70Fixes.css?42b";</style><![endif]-->
+		<!--[if lt IE 7]><script type="text/javascript" src="/skins/common/IEFixes.js?42b"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+		
+		<script type= "text/javascript">/*<![CDATA[*/
+var skin = "monobook";
+var stylepath = "/skins";
+var wgArticlePath = "/index.php?title=$1";
+var wgScriptPath = "";
+var wgServer = "http://wiki.skinconsortium.com";
+var wgCanonicalNamespace = "";
+var wgCanonicalSpecialPageName = false;
+var wgNamespaceNumber = 0;
+var wgPageName = "Main_Page";
+var wgTitle = "Main Page";
+var wgArticleId = "1";
+var wgIsArticle = true;
+var wgUserName = null;
+var wgUserLanguage = "en";
+var wgContentLanguage = "en";
+var wgBreakFrames = false;
+var wgCurRevisionId = "468";
+/*]]>*/</script>
+                
+		<script type="text/javascript" src="/skins/common/wikibits.js?42b"><!-- wikibits js --></script>
+		<script type="text/javascript" src="/index.php?title=-&amp;action=raw&amp;gen=js"><!-- site js --></script>
+		<style type="text/css">/*<![CDATA[*/
+@import "/index.php?title=MediaWiki:Common.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=MediaWiki:Monobook.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=-&action=raw&gen=css&maxage=18000";
+/*]]>*/</style>
+		<!-- Head Scripts -->
+			</head>
+<body  class="mediawiki ns-0 ltr page-Main_Page">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<h1 class="firstHeading">Main Page</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From ScWiki</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<div id="mainpage"></div>
+<table style="width:100%;margin-top:+.9em;background-color:#fcfcfc;border:1px solid #ccc">
+<tr>
+<td style="width:56%;color:#000">
+<table style="width:280px;border:solid 0px;background:none">
+
+<tr>
+<td style="width:280px;text-align:center;white-space:nowrap;color:#000">
+<div style="font-size:162%;border:none;margin: 0;padding:.1em;color:#000">Welcome to <a href="/index.php?title=Skin_Consortium" title="Skin Consortium">Skin Consortium</a> Wiki,</div>
+<div style="top:+0.2em;font-size: 95%">the skinning directory.</div>
+<div id="articlecount" style="width:100%;text-align:center;font-size:85%;"><a href="/index.php?title=Special:Statistics" title="Special:Statistics">29</a> articles for you</div>
+</td></tr></table>
+</td><td style="width:15%;font-size:95%;color:#000">
+<ul><li><a href="/index.php?title=Winamp_Modern_Skins" title="Winamp Modern Skins">Winamp Modern Skins</a>
+</li><li><a href="/index.php?title=Winamp_Classic_Skins" title="Winamp Classic Skins">Winamp Classic Skins</a>
+</li><li><a href="/index.php?title=Winamp_classicPro_Skins" title="Winamp classicPro Skins">Winamp ClassicPro© Skins</a>
+</li></ul>
+</td><td style="width:15%;font-size:95%">
+<ul><li><a href="/index.php?title=Xion_Skins" title="Xion Skins">Xion Skins</a>
+</li><li><a href="/index.php?title=General_Coding" title="General Coding">General Coding</a>
+</li><li><a href="/index.php?title=General_Graphics" title="General Graphics">General Graphics</a>
+</li></ul>
+</td><td style="width:15%;font-size:95%">
+<ul><li><a href="/index.php?title=Recommended_Software" title="Recommended Software">Recommended Software</a>
+</li><li><a href="/index.php?title=Best_of_Winamp_Skins" title="Best of Winamp Skins">Best Winamp Skins</a>
+</li><li><a href="/index.php?title=Best_of_Xion_Skins" title="Best of Xion Skins">Best Xion Skins</a>
+</li></ul>
+</td></tr></table>
+<a name="Welcome_to_the_ScWiki.21"></a><h2> <span class="mw-headline"> Welcome to the ScWiki! </span></h2>
+<p>If you want to create skins for Winamp or Xion then you came to the right place.
+Here you'll find all the information you'll need and it will be up to date thanks to all the user updates.
+If you find something that you dont see here please add your ideas and help the other aspirant skinners out there.
+</p><p>Futher, if you need help with skinning please feel free to ask your questions in our SkinConsortium Forum.
+</p><p><br />
+</p>
+<table style="border-spacing:8px; margin:0px -8px;">
+<tr>
+<td class="MainPageBG" style="width:55%; border:1px solid #cef2e0; background:#f5fffa; vertical-align:top; color:#000;">
+<table width="100%" cellpadding="2" cellspacing="5" style="vertical-align:top; background:#f5fffa;">
+<tr>
+<th>
+<div class="floatleft"><span><a href="/index.php?title=Image:Winampskins-left.png" class="image" title="Winamp"><img src="/images/7/74/Winampskins-left.png" alt="Winamp" width="26" height="26" longdesc="/index.php?title=Image:Winampskins-left.png" /></a></span></div>
+<a name="Winamp_Centre"></a><h2 style="margin:0; background:#cef2e0; font-size:120%; font-weight:bold; border:1px solid #a3bfb1; text-align:left; color:#000; padding:0.2em 0.4em;"> <span class="mw-headline">Winamp Centre</span></h2>
+</th></tr>
+<tr>
+<td style="color:#000;"> <div class="floatright"><span><a href="/index.php?title=Image:Winampskins.png" class="image" title="Winamp Modern Skins can take any form."><img src="/images/4/47/Winampskins.png" alt="Winamp Modern Skins can take any form." width="200" height="400" longdesc="/index.php?title=Image:Winampskins.png" /></a></span></div>
+<p>I'm sure that you'll know what Winamp is and what a skin is so I'll skip that part.
+</p><p>Winamp was one of the first application with skins so lets get started!
+</p><p>Here is the quick links to the information you'll need if you already familiar with skinning in Winamp:
+</p>
+<ul><li> Modern Skins (<b><a href="/index.php?title=XML_Reference" title="XML Reference">XML Reference</a></b> | <b><a href="/index.php?title=Maki_Reference" title="Maki Reference">Maki Reference</a></b>)
+</li><li> ClassicPro Skins (File Reference)
+</li><li> Classic Skins (<b><a href="/index.php?title=Winamp_Classic_Skins" title="Winamp Classic Skins">File Reference</a></b>)
+</li></ul>
+<p>Please note that Winamp is backwards compatible with all skins. (some Winamp3 skins might be buggy though&nbsp;;)
+</p><p><br />
+Now if you're new to the skinning world then you'll first have to decide what type of skin you want to create.
+</p><p>Here is a quick guide to minimum requirements to create the different types and the link to their guides to help your learn:
+</p>
+<ul><li> Modern Skins
+<ul><li> XML editing, Graphics Editor (png), Lots of time, Optional script programming
+</li><li> <b><a href="/index.php?title=Winamp_Modern_Skin_Tutorial" title="Winamp Modern Skin Tutorial">Winamp Modern Skin Tutorial</a></b>
+</li></ul>
+</li><li> ClassicPro Skins
+<ul><li> Graphics Editor (png), Not so time consuming
+</li><li> <b>Skinners Manual for ClassicPro</b>
+</li></ul>
+</li><li> Classic Skins
+<ul><li> Graphics Editor (bmp), More time consuming than ClassicPro but less than Modern Skins.
+</li><li> <b><a href="/index.php?title=Winamp_Classic_Skins" title="Winamp Classic Skins">Guide for Classic Winamp skins</a></b>
+</li></ul>
+</li></ul>
+</td></tr>
+</table>
+</td></tr></table>
+
+<!-- Saved in parser cache with key hscwiki:pcache:idhash:1-0!1!0!!en!2!edit=0 and timestamp 20100718083246 -->
+<div class="printfooter">
+Retrieved from "<a href="http://wiki.skinconsortium.com/index.php?title=Main_Page">http://wiki.skinconsortium.com/index.php?title=Main_Page</a>"</div>
+						<!-- end content -->
+			<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+						 <li id="ca-nstab-main" class="selected"><a href="/index.php?title=Main_Page">Article</a></li>
+						 <li id="ca-talk"><a href="/index.php?title=Talk:Main_Page">Discussion</a></li>
+						 <li id="ca-viewsource"><a href="/index.php?title=Main_Page&amp;action=edit">View source</a></li>
+						 <li id="ca-history"><a href="/index.php?title=Main_Page&amp;action=history">History</a></li>
+				</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/index.php?title=Special:Userlogin&amp;returnto=Main_Page">Log in / create account</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://www.skinconsortium.com/images/wiki/scwiki_logo2.png);" href="/index.php?title=Main_Page" title="Main Page"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class='portlet' id='p-navigation'>
+		<h5>Navigation</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage"><a href="/index.php?title=Main_Page">Main Page</a></li>
+				<li id="n-portal"><a href="/index.php?title=ScWiki:Community_Portal">Community portal</a></li>
+				<li id="n-currentevents"><a href="/index.php?title=Current_events">Current events</a></li>
+				<li id="n-recentchanges"><a href="/index.php?title=Special:Recentchanges">Recent changes</a></li>
+				<li id="n-randompage"><a href="/index.php?title=Special:Random">Random page</a></li>
+				<li id="n-help"><a href="/index.php?title=Help:Contents">Help</a></li>
+				<li id="n-sitesupport"><a href="/index.php?title=ScWiki:Site_support">Donations</a></li>
+			</ul>
+		</div>
+	</div>
+		<div class='portlet' id='p-Skin_consortium_site'>
+		<h5>Skin consortium site</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-SC-homepage"><a href="http://www.skinconsortium.com">SC homepage</a></li>
+				<li id="n-SC-forums"><a href="http://forums.skinconsortium.com">SC forums</a></li>
+			</ul>
+		</div>
+	</div>
+		<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/index.php?title=Special:Search" id="searchform"><div>
+				<input id="searchInput" name="search" type="text" accesskey="f" value="" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" />
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/index.php?title=Special:Whatlinkshere/Main_Page">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/index.php?title=Special:Recentchangeslinked/Main_Page">Related changes</a></li>
+<li id="t-upload"><a href="/index.php?title=Special:Upload">Upload file</a></li>
+<li id="t-specialpages"><a href="/index.php?title=Special:Specialpages">Special pages</a></li>
+				<li id="t-print"><a href="/index.php?title=Main_Page&amp;printable=yes">Printable version</a></li>				<li id="t-permalink"><a href="/index.php?title=Main_Page&amp;oldid=468">Permanent link</a></li>			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" /></a></div>
+			<ul id="f-list">
+				<li id="lastmod"> This page was last modified 15:11, 5 June 2008.</li>
+				<li id="viewcount">This page has been accessed 30,085 times.</li>
+				<li id="privacy"><a href="/index.php?title=ScWiki:Privacy_policy" title="ScWiki:Privacy policy">Privacy policy</a></li>
+				<li id="about"><a href="/index.php?title=ScWiki:About" title="ScWiki:About">About ScWiki</a></li>
+				<li id="disclaimer"><a href="/index.php?title=ScWiki:General_disclaimer" title="ScWiki:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+		
+	
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+</div>
+<!-- Served by wiki.skinconsortium.com in 0.219 secs. --></body></html>

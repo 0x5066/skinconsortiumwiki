@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="keywords" content="XML Elements,XML Reference" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="ScWiki (English)" />
+		<title>XML Elements - ScWiki</title>
+		<style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "/skins/monobook/main.css?42b"; /*]]>*/</style>
+		<link rel="stylesheet" type="text/css" media="print" href="/skins/common/commonPrint.css?42b" />
+		<link rel="stylesheet" type="text/css" media="handheld" href="/skins/monobook/handheld.css?42b" />
+		<!--[if lt IE 5.5000]><style type="text/css">@import "/skins/monobook/IE50Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 5.5000]><style type="text/css">@import "/skins/monobook/IE55Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 6]><style type="text/css">@import "/skins/monobook/IE60Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 7]><style type="text/css">@import "/skins/monobook/IE70Fixes.css?42b";</style><![endif]-->
+		<!--[if lt IE 7]><script type="text/javascript" src="/skins/common/IEFixes.js?42b"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+		
+		<script type= "text/javascript">/*<![CDATA[*/
+var skin = "monobook";
+var stylepath = "/skins";
+var wgArticlePath = "/index.php?title=$1";
+var wgScriptPath = "";
+var wgServer = "http://wiki.skinconsortium.com";
+var wgCanonicalNamespace = "";
+var wgCanonicalSpecialPageName = false;
+var wgNamespaceNumber = 0;
+var wgPageName = "XML_Elements";
+var wgTitle = "XML Elements";
+var wgArticleId = "70";
+var wgIsArticle = true;
+var wgUserName = null;
+var wgUserLanguage = "en";
+var wgContentLanguage = "en";
+var wgBreakFrames = false;
+var wgCurRevisionId = "430";
+/*]]>*/</script>
+                
+		<script type="text/javascript" src="/skins/common/wikibits.js?42b"><!-- wikibits js --></script>
+		<script type="text/javascript" src="/index.php?title=-&amp;action=raw&amp;gen=js"><!-- site js --></script>
+		<style type="text/css">/*<![CDATA[*/
+@import "/index.php?title=MediaWiki:Common.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=MediaWiki:Monobook.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=-&action=raw&gen=css&maxage=18000";
+/*]]>*/</style>
+		<!-- Head Scripts -->
+			</head>
+<body  class="mediawiki ns-0 ltr page-XML_Elements">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<h1 class="firstHeading">XML Elements</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From ScWiki</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<p>Elements are the sub-atomic particles of the chemistry of  Wasabi UI development.  They represent the binding of fonts, colors, and raster graphics to id's which are then referenced by the actual objects of the system.  The definition of elements should occur hierarchically within an &lt;elements&gt; tag.  Because elements are intended to be referenced by GuiObjects, specifying elements without ids is a meaningless endeavour.  A simple sample of each possible type of element would look like this:
+</p>
+<pre>&lt;elements&gt;
+	&lt;color id="myindigo" value="64,32,128"/&gt; 
+	&lt;bitmap id="mybitmap" file="mybitmap.png" x="104" y="0" h="90" w="244" gammagroup="Backgrounds"/&gt;
+	&lt;bitmapfont id="mybitfont" file="myfont.png" charwidth="9" charheight="13" hspacing="3" vspacing="1"/&gt;
+	&lt;truetypefont id="myttfont" file="impact.ttf"/&gt;
+	&lt;elementalias id="newelemid" target="mybitmap"/&gt;
+&lt;/elements&gt;
+</pre>
+<p><br />
+</p>
+<table id="toc" class="toc" summary="Contents"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1"><a href="#.3Cbitmap.2F.3E"><span class="tocnumber">1</span> <span class="toctext">&lt;bitmap/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Cbitmapfont.2F.3E"><span class="tocnumber">2</span> <span class="toctext">&lt;bitmapfont/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Ctruetypefont.2F.3E"><span class="tocnumber">3</span> <span class="toctext">&lt;truetypefont/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Ccolor.2F.3E"><span class="tocnumber">4</span> <span class="toctext">&lt;color/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Celementalias.2F.3E"><span class="tocnumber">5</span> <span class="toctext">&lt;elementalias/&gt;</span></a></li>
+<li class="toclevel-1"><a href="#.3Ccursor.2F.3E"><span class="tocnumber">6</span> <span class="toctext">&lt;cursor/&gt;</span></a></li>
+</ul>
+</td></tr></table><script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+<a name=".3Cbitmap.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_Elements&amp;action=edit&amp;section=1" title="Edit section: &amp;lt;bitmap/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;bitmap/&gt;</span></h2>
+<p>The bitmap element defines a raster buffer of the given pixel size, sliced out of the given raster graphics file.  In general, we use the .png graphics format for our bitmap graphics, however Wasabi's "supported formats" are determined entirely at startup by the registration of image loader services (see Extending Wasabi: Image Loaders).  If the sizing values (x/y/h/w) are not specified, the bitmap defines a buffer equivalent to the entire graphics file.  Its specific parameters are:
+</p>
+<ul><li> <b>id</b> - (string) A unique string, that is used to identify the element when used by the object.
+</li><li> <b>file</b> - (string) A path to the bitmap file the image is in. If it begings with disk name (C:/.../filename) then the path is absolute, otherwise (folder1/.../filename) the path is relative to skin folder (don't confuse with <a href="/index.php?title=XML_Reference#.3Cinclude.2F.3E" title="XML Reference">inclusion</a> of xml files where path is relative to parent xml file)
+</li><li> <b>x</b> - (int) A coordinate x of the image defined inside the bitmap file (x coordinate of the cropped area).
+</li><li> <b>y</b> - (int) A coordinate y of the image defined inside the bitmap file (y coordinate of the cropped area).
+</li><li> <b>w</b> - (int) Width of the image defined inside the bitmap file (width of the cropped area).
+</li><li> <b>h</b> - (int) Height of the image defined inside the bitmap file (height of the cropped area).
+</li><li> <b>gammagroup</b> - (id) The id of the gammagroup the bitmap will be changed by when using color themes.
+</li></ul>
+<p><br />
+You can also use these internal bitmaps without declaring them:
+</p>
+<ul><li> <b>$wallpaper</b> - This is the current background of Windows.
+</li></ul>
+<pre>&lt;layer x="" y="" image="$wallpaper"/&gt;
+</pre>
+<a name=".3Cbitmapfont.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_Elements&amp;action=edit&amp;section=2" title="Edit section: &amp;lt;bitmapfont/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;bitmapfont/&gt;</span></h2>
+<p>The bitmapfont element specifies the information required to pull a fixed-width font set out of a raster graphic file.  Bitmap fonts always begin their series with ascii character '0' and can go for as many characters as you desire.  Any ascii characters not represented by a cell in the graphics file will display as blanks.  The required specific parameters are:
+</p>
+<ul><li> <b>id</b> - (string) A unique string, that is used to identify the element when used by the object.
+</li><li> <b>file</b> - (str) The name of the raster graphics file from which to load.
+</li><li> <b>charwidth</b> - (int) The width of each glyph cell in pixels.
+</li><li> <b>charheight</b> - (int) The height of each glyph cell in pixels.
+</li><li> <b>hspacing</b> - (int) The extra overlap distance for each glyph cell, in pixels, on the horizontal axis.
+</li><li> <b>vspacing</b> - (int) The extra overlap distance for each glyph cell, in pixels, on the vertical axis.
+</li></ul>
+<p><br />
+</p>
+<a name=".3Ctruetypefont.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_Elements&amp;action=edit&amp;section=3" title="Edit section: &amp;lt;truetypefont/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;truetypefont/&gt;</span></h2>
+<p>The truetypefont element specifies a TTF file to be registered with the system.  Note that most of the font-using GuiObjects in the system request Arial, which is not usually defined.  Any request for an undefined font name will default to the list of OS-installed fonts.  This allows a skin to define a truetypefont element with the id of "arial" which will automatically become the default for most objects displaying text.  The specific parameter for this element is:
+</p>
+<ul><li> <b>id</b> - (string) A unique string, that is used to identify the element when used by the object.
+</li><li> <b>file</b> - (str) The name of the true type font file to load.
+</li></ul>
+<p><br />
+</p>
+<a name=".3Ccolor.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_Elements&amp;action=edit&amp;section=4" title="Edit section: &amp;lt;color/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;color/&gt;</span></h2>
+<ul><li> <b>id</b> - (string) A unique string, that is used to identify the element when used by the object.
+</li><li> <b>value</b> - (string-"int,int,int") A comma delimited list of 3 integers in the range 0-255 corresponding to the individual red, green, and blue elements that define a "truecolor" value.
+</li><li> <b>gammagroup</b> - (str) The id of a gammagroup to which this element is assigned.
+</li></ul>
+<a name=".3Celementalias.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_Elements&amp;action=edit&amp;section=5" title="Edit section: &amp;lt;elementalias/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;elementalias/&gt;</span></h2>
+<p>The bitmapfont element specifies the information required to pull a fixed-width font set out of a raster graphic file.  Bitmap fonts always begin their series with ascii character '0' and can go for as many characters as you desire.  Any ascii characters not represented by a cell in the graphics file will display as blanks.  The required specific parameters are:
+</p>
+<ul><li> <b>id</b> - (string) A unique string, that is used to identify the element when used by the object.
+</li><li> <b>target</b> - (str) The id of the element to alias.
+</li></ul>
+<p><br />
+</p>
+<a name=".3Ccursor.2F.3E"></a><h2><span class="editsection">[<a href="/index.php?title=XML_Elements&amp;action=edit&amp;section=6" title="Edit section: &amp;lt;cursor/&amp;gt;">edit</a>]</span> <span class="mw-headline">&lt;cursor/&gt;</span></h2>
+<p>The cursor element specifies the information required to create your own cursor that you can use in your skin.
+</p>
+<ul><li> <b>bitmap</b> - (str) Same as the file param for &lt;bitmap/&gt;
+</li><li> <b>hotspot_x</b> - (int) The X position of the hotspot.
+</li><li> <b>hotspot_y</b> - (int) The Y position of the hotspot.
+</li></ul>
+<pre>&lt;cursor id="cursor.h" bitmap="pictures/cursor_h.png" hotspot_x="10" hotspot_y="4"/&gt;
+</pre>
+<!-- Saved in parser cache with key scwiki:pcache:idhash:70-0!1!0!!en!2 and timestamp 20091015093451 -->
+<div class="printfooter">
+Retrieved from "<a href="http://wiki.skinconsortium.com/index.php?title=XML_Elements">http://wiki.skinconsortium.com/index.php?title=XML_Elements</a>"</div>
+						<!-- end content -->
+			<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+						 <li id="ca-nstab-main" class="selected"><a href="/index.php?title=XML_Elements">Article</a></li>
+						 <li id="ca-talk"><a href="/index.php?title=Talk:XML_Elements">Discussion</a></li>
+						 <li id="ca-edit"><a href="/index.php?title=XML_Elements&amp;action=edit">Edit</a></li>
+						 <li id="ca-history"><a href="/index.php?title=XML_Elements&amp;action=history">History</a></li>
+				</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/index.php?title=Special:Userlogin&amp;returnto=XML_Elements">Log in / create account</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://www.skinconsortium.com/images/wiki/scwiki_logo2.png);" href="/index.php?title=Main_Page" title="Main Page"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class='portlet' id='p-navigation'>
+		<h5>Navigation</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage"><a href="/index.php?title=Main_Page">Main Page</a></li>
+				<li id="n-portal"><a href="/index.php?title=ScWiki:Community_Portal">Community portal</a></li>
+				<li id="n-currentevents"><a href="/index.php?title=Current_events">Current events</a></li>
+				<li id="n-recentchanges"><a href="/index.php?title=Special:Recentchanges">Recent changes</a></li>
+				<li id="n-randompage"><a href="/index.php?title=Special:Random">Random page</a></li>
+				<li id="n-help"><a href="/index.php?title=Help:Contents">Help</a></li>
+				<li id="n-sitesupport"><a href="/index.php?title=ScWiki:Site_support">Donations</a></li>
+			</ul>
+		</div>
+	</div>
+		<div class='portlet' id='p-Skin_consortium_site'>
+		<h5>Skin consortium site</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-SC-homepage"><a href="http://www.skinconsortium.com">SC homepage</a></li>
+				<li id="n-SC-forums"><a href="http://forums.skinconsortium.com">SC forums</a></li>
+			</ul>
+		</div>
+	</div>
+		<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/index.php?title=Special:Search" id="searchform"><div>
+				<input id="searchInput" name="search" type="text" accesskey="f" value="" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" />
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/index.php?title=Special:Whatlinkshere/XML_Elements">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/index.php?title=Special:Recentchangeslinked/XML_Elements">Related changes</a></li>
+<li id="t-upload"><a href="/index.php?title=Special:Upload">Upload file</a></li>
+<li id="t-specialpages"><a href="/index.php?title=Special:Specialpages">Special pages</a></li>
+				<li id="t-print"><a href="/index.php?title=XML_Elements&amp;printable=yes">Printable version</a></li>				<li id="t-permalink"><a href="/index.php?title=XML_Elements&amp;oldid=430">Permanent link</a></li>			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" /></a></div>
+			<ul id="f-list">
+				<li id="lastmod"> This page was last modified 09:26, 15 March 2008.</li>
+				<li id="viewcount">This page has been accessed 674 times.</li>
+				<li id="privacy"><a href="/index.php?title=ScWiki:Privacy_policy" title="ScWiki:Privacy policy">Privacy policy</a></li>
+				<li id="about"><a href="/index.php?title=ScWiki:About" title="ScWiki:About">About ScWiki</a></li>
+				<li id="disclaimer"><a href="/index.php?title=ScWiki:General_disclaimer" title="ScWiki:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+		
+	
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+</div>
+<!-- Served by wiki.skinconsortium.com in 0.327 secs. --></body></html>

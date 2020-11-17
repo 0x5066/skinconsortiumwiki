@@ -1,0 +1,399 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="keywords" content="Maki Reference,Maki Reference,Maki Scripts,Maki Step-By-Step Tutorials -- Simple Fade in Script,Maki-Tutorials,Maki-Saving,Maki-Maths,Maki-String,Maki-Equilizer,Maki-Button,List of classes" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="ScWiki (English)" />
+		<title>Maki Reference - ScWiki</title>
+		<style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "/skins/monobook/main.css?42b"; /*]]>*/</style>
+		<link rel="stylesheet" type="text/css" media="print" href="/skins/common/commonPrint.css?42b" />
+		<link rel="stylesheet" type="text/css" media="handheld" href="/skins/monobook/handheld.css?42b" />
+		<!--[if lt IE 5.5000]><style type="text/css">@import "/skins/monobook/IE50Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 5.5000]><style type="text/css">@import "/skins/monobook/IE55Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 6]><style type="text/css">@import "/skins/monobook/IE60Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 7]><style type="text/css">@import "/skins/monobook/IE70Fixes.css?42b";</style><![endif]-->
+		<!--[if lt IE 7]><script type="text/javascript" src="/skins/common/IEFixes.js?42b"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+		
+		<script type= "text/javascript">/*<![CDATA[*/
+var skin = "monobook";
+var stylepath = "/skins";
+var wgArticlePath = "/index.php?title=$1";
+var wgScriptPath = "";
+var wgServer = "http://wiki.skinconsortium.com";
+var wgCanonicalNamespace = "";
+var wgCanonicalSpecialPageName = false;
+var wgNamespaceNumber = 0;
+var wgPageName = "Maki_Reference";
+var wgTitle = "Maki Reference";
+var wgArticleId = "10";
+var wgIsArticle = true;
+var wgUserName = null;
+var wgUserLanguage = "en";
+var wgContentLanguage = "en";
+var wgBreakFrames = false;
+var wgCurRevisionId = "604";
+/*]]>*/</script>
+                
+		<script type="text/javascript" src="/skins/common/wikibits.js?42b"><!-- wikibits js --></script>
+		<script type="text/javascript" src="/index.php?title=-&amp;action=raw&amp;gen=js"><!-- site js --></script>
+		<style type="text/css">/*<![CDATA[*/
+@import "/index.php?title=MediaWiki:Common.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=MediaWiki:Monobook.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=-&action=raw&gen=css&maxage=18000";
+/*]]>*/</style>
+		<!-- Head Scripts -->
+			</head>
+<body  class="mediawiki ns-0 ltr page-Maki_Reference">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<h1 class="firstHeading">Maki Reference</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From ScWiki</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<table id="toc" class="toc" summary="Contents"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1"><a href="#What_is_a_MAKI_script.3F"><span class="tocnumber">1</span> <span class="toctext">What is a MAKI script?</span></a></li>
+<li class="toclevel-1"><a href="#MAKI_Syntax_and_example_script"><span class="tocnumber">2</span> <span class="toctext">MAKI Syntax and example script</span></a></li>
+<li class="toclevel-1"><a href="#Events_and_functions"><span class="tocnumber">3</span> <span class="toctext">Events and functions</span></a></li>
+<li class="toclevel-1"><a href="#Basic_variable_types"><span class="tocnumber">4</span> <span class="toctext">Basic variable types</span></a></li>
+<li class="toclevel-1"><a href="#Classes"><span class="tocnumber">5</span> <span class="toctext">Classes</span></a></li>
+<li class="toclevel-1"><a href="#Button"><span class="tocnumber">6</span> <span class="toctext">Button</span></a></li>
+<li class="toclevel-1"><a href="#Slider"><span class="tocnumber">7</span> <span class="toctext">Slider</span></a></li>
+<li class="toclevel-1"><a href="#Timer"><span class="tocnumber">8</span> <span class="toctext">Timer</span></a></li>
+<li class="toclevel-1"><a href="#List"><span class="tocnumber">9</span> <span class="toctext">List</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Overview"><span class="tocnumber">9.1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-2"><a href="#Functions"><span class="tocnumber">9.2</span> <span class="toctext">Functions</span></a></li>
+<li class="toclevel-2"><a href="#Example"><span class="tocnumber">9.3</span> <span class="toctext">Example</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#BitList"><span class="tocnumber">10</span> <span class="toctext">BitList</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Overview_2"><span class="tocnumber">10.1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-2"><a href="#Functions_2"><span class="tocnumber">10.2</span> <span class="toctext">Functions</span></a></li>
+<li class="toclevel-2"><a href="#Example_2"><span class="tocnumber">10.3</span> <span class="toctext">Example</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Equilizer"><span class="tocnumber">11</span> <span class="toctext">Equilizer</span></a></li>
+<li class="toclevel-1"><a href="#String"><span class="tocnumber">12</span> <span class="toctext">String</span></a></li>
+<li class="toclevel-1"><a href="#Maths"><span class="tocnumber">13</span> <span class="toctext">Maths</span></a></li>
+<li class="toclevel-1"><a href="#Saving"><span class="tocnumber">14</span> <span class="toctext">Saving</span></a></li>
+<li class="toclevel-1"><a href="#Step-By-Step_Tutorials"><span class="tocnumber">15</span> <span class="toctext">Step-By-Step Tutorials</span></a></li>
+<li class="toclevel-1"><a href="#Scripts"><span class="tocnumber">16</span> <span class="toctext">Scripts</span></a></li>
+</ul>
+</td></tr></table><script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+<a name="What_is_a_MAKI_script.3F"></a><h2><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=1" title="Edit section: What is a MAKI script?">edit</a>]</span> <span class="mw-headline"> What is a MAKI script? </span></h2>
+<p>MAKI stands for <b>M</b>ake <b>A K</b>iller <b>I</b>nterface. It is the scripting language for modern Winamp skins. Scripting is used to produce the animations you see in the skin or to add some functionality. MAKI scripts are event based. In other word, your functions are used to define behaviors when an event occurs. If you don't define action for that event, the default behavior will be used and the default behavior is defined by Winamp. Scripts are used to override an existing behavior. For example, when you click on the PL button, the playlist container appears. You can override that functionality so that the Media Library also appears.
+</p>
+<a name="MAKI_Syntax_and_example_script"></a><h2><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=2" title="Edit section: MAKI Syntax and example script">edit</a>]</span> <span class="mw-headline"> MAKI Syntax and example script </span></h2>
+<p>The syntax of MAKI scripts is based on <a href="http://en.wikipedia.org/wiki/C_(programming_language)" class="external text" title="http://en.wikipedia.org/wiki/C_(programming_language)" rel="nofollow">C programming language</a>. Here is an example script:
+</p>
+<pre>
+#include &quot;C:/Scripting/std.mi&quot;
+
+Global Button MyButton; // This is a comment for button definition
+
+System.onScriptLoaded()
+{
+	string str = &quot;YourButtonId&quot;;
+	MyButton = getObject(str);
+}
+
+MyButton.onLeftClick()
+{
+	MessageBox(&quot;The button was pressed.&quot;, &quot;Title of the message&quot;, 0, &quot;&quot;);
+}
+</pre>The first line is to include <a href="/index.php?title=Standard_definitions_file&amp;action=edit" class="new" title="Standard definitions file">standard definitions file</a>. There are definitions of externally implemented classes and functions/events. The second line defines a global variable of the <i>Button</i> type (the <i>Button</i> type or class was defined in standard definitions file before). The next two blocks are the <a href="/index.php?title=Maki-event&amp;action=edit" class="new" title="Maki-event">events</a> with some action(s).
+<p><br />
+</p>
+<a name="Events_and_functions"></a><h2><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=3" title="Edit section: Events and functions">edit</a>]</span> <span class="mw-headline">Events and functions</span></h2>
+Technically, there are no differences beetween them. The events are really functions that called externally. The main difference is a way of calling. For example, there are external function (event) <i>onEqBandChanged</i> and the function <i>ShowEqState</i>. Both can be used like this<pre>System.onEqBandChanged(int band, int newvalue)
+{
+	dosomething(band,newvalue);
+}
+
+ShowEqState(int band, int newvalue)
+{
+	dosomething(band,newvalue);
+}</pre>But the event <i>onEqBandChanged</i> is defined as external and will be called by the platform while <i>ShowEqState</i> function is called internally in the script.
+<a name="Basic_variable_types"></a><h2><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=4" title="Edit section: Basic variable types">edit</a>]</span> <span class="mw-headline"> Basic variable types </span></h2>
+<dl><dt> Boolean&nbsp;</dt><dd> A 2-states boolean variable - 0 (FALSE) and 1 (TRUE), used for logic expressions.
+</dd><dt> Int&nbsp;</dt><dd> An integer number, can be positive or negative or 0.
+</dd><dt> Double&nbsp;</dt><dd> A real number with floating point.
+</dd><dt> String&nbsp;</dt><dd> Any text.
+</dd></dl>
+<a name="Classes"></a><h2><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=5" title="Edit section: Classes">edit</a>]</span> <span class="mw-headline">Classes</span></h2>
+MAKI scripts support classes. They can be defined as internal:<pre>Class &lt;Parent Class&gt; &lt;Derived class&gt;;</pre>or as external:<pre>extern class @{00000000-0000-0000-0000-000000000000}@ &lt;Parent Class&gt; &lt;Derived class&gt;;</pre>The {xxx} sequence is a link to external implementation.
+<p>Example of definition:
+</p>
+<pre>''Class Button NewButton;''</pre>
+<p>This would create a class called <i>NewButton</i>, with all the features of the <i>Button</i> class and a variable can then be assigned to this type in exactly the same way as they can with the predefined classes (<i>Button</i> is a predefined class here).
+</p><p>Usage example:
+</p>
+<pre>''NewButton Button1;''</pre>
+<p>A defined (derived) class takes all the attributes of its parent class. New attributes for the whole class can be added, in a simular was to defining the purpose of a single object. Say for example, the class NewButton needs to perform some action when releasing the Left Mouse Button.
+</p>
+<pre>''NewButton.onLeftButtonUp(int x, int y)''
+
+''{''
+:'' New features here''
+''}''</pre>
+<p><br />
+<a href="/index.php?title=List_of_classes&amp;action=edit" class="new" title="List of classes">List of classes</a>
+</p><p><br />
+</p>
+<a name="Button"></a><h2><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=6" title="Edit section: Button">edit</a>]</span> <span class="mw-headline"> <a href="/index.php?title=Maki-Button&amp;action=edit" class="new" title="Maki-Button">Button</a> </span></h2>
+<ul><li> <i>extern Button.<b>onActivate</b>(int activated);</i>
+</li><li> <i>extern Button.<b>onLeftClick</b>();</i>
+</li><li> <i>extern Button.<b>onRightClick</b>();</i>
+</li><li> <i>extern Button.<b>setActivated</b>(Boolean onoff);</i>
+</li><li> <i>extern Button.<b>setActivatedNoCallback</b>(Boolean onoff);</i>
+</li><li> <i>extern Boolean Button.<b>getActivated</b>();</i>
+</li><li> <i>extern Button.<b>leftClick</b>();</i>
+</li><li> <i>extern Button.<b>rightClick</b>();</i>
+</li></ul>
+<p><br />
+</p>
+<a name="Slider"></a><h2><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=7" title="Edit section: Slider">edit</a>]</span> <span class="mw-headline"> <a href="/index.php?title=Maki-Slider&amp;action=edit" class="new" title="Maki-Slider">Slider</a> </span></h2>
+<ul><li> <i>extern Slider.<b>onSetPosition</b>(int newpos);</i>
+</li><li> <i>extern Slider.<b>onPostedPosition</b>(int newpos);</i>
+</li><li> <i>extern Slider.<b>onSetFinalPosition</b>(int pos);</i>
+</li><li> <i>extern Slider.<b>setPosition</b>(int pos);</i>
+</li><li> <i>extern Int Slider.<b>getPosition</b>();</i>
+</li><li> <i>extern Slider.<b>lock</b>();</i>
+</li><li> <i>extern Slider.<b>unlock</b>();</i>
+</li></ul>
+<p><br />
+</p>
+<a name="Timer"></a><h2><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=8" title="Edit section: Timer">edit</a>]</span> <span class="mw-headline"> <a href="/index.php?title=Maki-Timer&amp;action=edit" class="new" title="Maki-Timer">Timer</a> </span></h2>
+<ul><li> <i>extern Timer.<b>onTimer</b>();</i>
+</li><li> <i>extern Timer.<b>setDelay</b>(int millisec);</i>
+</li><li> <i>extern Int Timer.<b>getDelay</b>();</i>
+</li><li> <i>extern Timer.<b>start</b>();</i>
+</li><li> <i>extern Timer.<b>stop</b>();</i>
+</li><li> <i>extern Timer.<b>isRunning</b>();</i>
+</li><li> <i>extern Int Timer.<b>getSkipped</b>();</i>
+</li></ul>
+<a name="List"></a><h2><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=9" title="Edit section: List">edit</a>]</span> <span class="mw-headline"> <a href="/index.php?title=Maki-List&amp;action=edit" class="new" title="Maki-List">List</a> </span></h2>
+<a name="Overview"></a><h3><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=10" title="Edit section: Overview">edit</a>]</span> <span class="mw-headline">Overview</span></h3>
+<p>This object is an array to store numbers or strings (there's no array for other variables - at version 5.56)
+You can store a value at the end of the array and take any of the items by its position. Position is a value from 0 to (number of items - 1) No changes are possible in the middle. You can only remove any item.
+</p><p>When using lists watch carefully for positions. Using incorrect positions will result in crushing.
+</p><p>Being a maki object with no xml representations, it requires to be created to be used:
+</p>
+<pre>List yourList = new List;
+</pre>
+<a name="Functions"></a><h3><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=11" title="Edit section: Functions">edit</a>]</span> <span class="mw-headline">Functions</span></h3>
+<ul><li> <i>List.<b>addItem</b>(string or int); //Adding an item to the end of the list</i>
+</li><li> <i>List.<b>removeItem</b>(int pos); // Removing any item from the list by its index (position)</i>
+</li><li> string or int <i>List.<b>enumItem</b>(int pos); //Getting the item from list by its position</i>
+</li><li> Int <i>List.<b>findItem</b>(string or int value); // Getting the index of an item with the value</i>
+</li><li> Int <i>List.<b>findItem2</b>(string or int value, int startItem); // Same as previous, but the search begins from "startItem" position.</i>
+</li></ul>
+<p>// Previous two functions may not work (v 5.56)
+</p>
+<ul><li> Int <i>List.<b>getNumItems</b>(); //Getting total number  of items in the list</i>
+</li><li> <i>List.<b>removeAll</b>(); //Removing all items from the list (though the list - with no items - is left)</i>
+</li></ul>
+<a name="Example"></a><h3><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=12" title="Edit section: Example">edit</a>]</span> <span class="mw-headline">Example</span></h3>
+<pre>SpectrumList.removeAll(); // Clearing List
+for ( int i = 0; i &lt; PrevValList.getNumItems(); i++ ) // Making a loop, based on Number of Items
+{
+	BarValue = 0;
+	If (PrevValList.eNumItem(i) &gt; BarValue) //Checking values in the List
+		BarValue = (PrevValList.eNumItem(i) * 4/5) //Getting values from the List
+	SpectrumList.addItem(BarValue); //Adding values to the list
+}
+</pre>
+<a name="BitList"></a><h2><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=13" title="Edit section: BitList">edit</a>]</span> <span class="mw-headline"> <a href="/index.php?title=Maki-BitList&amp;action=edit" class="new" title="Maki-BitList">BitList</a> </span></h2>
+<a name="Overview_2"></a><h3><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=14" title="Edit section: Overview">edit</a>]</span> <span class="mw-headline">Overview</span></h3>
+<p>This is an array for boolean values only. Unlike <a href="/index.php?title=Maki_Reference#List" title="Maki Reference">Lists</a> the only information you can store is bits, but you can change any of them and add new ones. Its main parameters are size (number of bits to store) and position from 0 to (Size - 1). Bitlists allow the user to use the other indexes (positions), but they will always return "false" value.
+</p><p>Being a maki object with no xml representations, it requires to be created to be used:
+</p>
+<pre>BitList yourList = new BitList;
+</pre>
+<a name="Functions_2"></a><h3><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=15" title="Edit section: Functions">edit</a>]</span> <span class="mw-headline">Functions</span></h3>
+<ul><li> boolean <i>BitList.<b>getItem</b>(int n); //Getting item by position</i>
+</li><li> <i>BitList.<b>setItem</b>(int n, boolean val); //Setting the item value (n - position, val - bit value)</i>
+</li><li> <i>BitList.<b>setSize</b>(int s); //Setting BitList size (number of required bits)</i>
+</li><li> int <i>BitList.<b>getSize</b>(); //Getting the size of the BitList</i>
+</li></ul>
+<a name="Example_2"></a><h3><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=16" title="Edit section: Example">edit</a>]</span> <span class="mw-headline">Example</span></h3>
+<pre>BitList myBitList = new BitList; //Creating BitList
+myBitList.setSize(2); //First for on/off, second for type(1-st or 2-nd)
+// Setting bits according to i value 
+if (i == 0)
+{
+	myBitList.setItem(0,true); //on
+	myBitList.setItem(1,false); //1-st type
+}
+if (i == 1)
+{
+	myBitList.setItem(0,true); //on
+	myBitList.setItem(1,true); //2-nd type
+}
+if (i == 2)
+	myBitList.setItem(0,false); //off
+if (myBitList.getItem(0) &amp;&nbsp;!myBitList.getItem(1)) // check if 1-st bit is true (on) and 2-nd - false (1-st type)
+{
+	// Process the 1-st type work
+}
+</pre>
+<a name="Equilizer"></a><h2><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=17" title="Edit section: Equilizer">edit</a>]</span> <span class="mw-headline"> <a href="/index.php?title=Maki-Equilizer&amp;action=edit" class="new" title="Maki-Equilizer">Equilizer</a> </span></h2>
+<ul><li> <i>extern System.<b>onEqBandChanged</b>(int band, int newvalue);</i>
+</li><li> <i>extern System.<b>onEqPreampChanged</b>(int newvalue);</i>
+</li><li> <i>extern System.<b>onEqChanged</b>(int newstatus);</i>
+</li><li> <i>extern System.<b>setEqBand</b>(int band, Int value);</i>
+</li><li> <i>extern System.<b>setEqPreamp</b>(Int value);</i>
+</li><li> <i>extern System.<b>setEq</b>(int onoff);</i>
+</li><li> <i>extern Int System.<b>getEqBand</b>(int band);</i>
+</li><li> <i>extern int System.<b>getEqPreamp</b>();</i>
+</li><li> <i>extern int System.<b>getEq</b>();</i>
+</li></ul>
+<p><br />
+</p>
+<a name="String"></a><h2><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=18" title="Edit section: String">edit</a>]</span> <span class="mw-headline"> <a href="/index.php?title=Maki-String&amp;action=edit" class="new" title="Maki-String">String</a> </span></h2>
+<ul><li> <i>extern String System.<b>strmid</b>(String str, Int start, Int len);</i>
+</li><li> <i>extern String System.<b>Strleft</b>(string str, int nchars);</i>
+</li><li> <i>extern string System.<b>strright</b>(string str, int nchars);</i>
+</li><li> <i>extern int System.<b>strsearch</b>(string str, string substr);</i>
+</li><li> <i>extern int System.<b>strlen</b>(string str);</i>
+</li><li> <i>extern string System.<b>strupper</b>(string str);</i>
+</li><li> <i>extern string System.<b>strlower</b>(string str);</i>
+</li><li> <i>extern string System.<b>getToken</b>(string str, string separator, int tokennum);</i>
+</li></ul>
+<p><br />
+</p>
+<a name="Maths"></a><h2><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=19" title="Edit section: Maths">edit</a>]</span> <span class="mw-headline"> <a href="/index.php?title=Maki-Maths&amp;action=edit" class="new" title="Maki-Maths">Maths</a> </span></h2>
+<ul><li> <i>extern double System.<b>sin</b>(double value);</i>
+</li><li> <i>extern double System.<b>cos</b>(double value);</i>
+</li><li> <i>extern double System.<b>tan</b>(double value);</i>
+</li><li> <i>extern double System.<b>asin</b>(double value);</i>
+</li><li> <i>extern double System.<b>acos</b>(double value);</i>
+</li><li> <i>extern double System.<b>atan</b>(double value);</i>
+</li><li> <i>extern double System.<b>atan2</b>(double y, double x);</i>
+</li><li> <i>extern double System.<b>pow</b>(double value, double pvalue);</i>
+</li><li> <i>extern double System.<b>sqr</b>(double value);</i>
+</li><li> <i>extern double System.<b>sqrt</b>(double value);</i>
+</li><li> <i>extern int System.<b>random</b>(int max);</i>
+</li><li> <i>extern double System.<b>log10</b>(double value);</i>
+</li><li> <i>extern double System.<b>ln</b>(double value);</i>
+</li></ul>
+<a name="Saving"></a><h2><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=20" title="Edit section: Saving">edit</a>]</span> <span class="mw-headline"> <a href="/index.php?title=Maki-Saving&amp;action=edit" class="new" title="Maki-Saving">Saving</a> </span></h2>
+<ul><li> <i>extern System.<b>setPrivateString</b>(string section, string item, string value);</i>
+</li><li> <i>extern System.<b>setPrivateInt</b>(string section, string item, int value);</i>
+</li><li> <i>extern String System.<b>getPrivateString</b>(String section, String item, String defvalue);</i>
+</li><li> <i>extern Int System.<b>getPrivateInt</b>(String section, String item, Int defvalue);</i>
+</li><li> <i>extern System.<b>setPublicString</b>(String item, String value);</i>
+</li><li> <i>extern System.<b>setPublicInt</b>(String item, Int value);</i>
+</li><li> <i>extern String System.<b>getPublicString</b>(String item, String defvalue);</i>
+</li><li> <i>extern Int System.<b>getPublicInt</b>(String item, Int defvalue);</i>
+</li></ul>
+<a name="Step-By-Step_Tutorials"></a><h2><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=21" title="Edit section: Step-By-Step Tutorials">edit</a>]</span> <span class="mw-headline"> <a href="/index.php?title=Maki-Tutorials&amp;action=edit" class="new" title="Maki-Tutorials">Step-By-Step Tutorials</a> </span></h2>
+<ul><li> <a href="/index.php?title=Maki_Step-By-Step_Tutorials_--_Simple_Fade_in_Script" title="Maki Step-By-Step Tutorials -- Simple Fade in Script">Simple Fade in Script</a>
+</li></ul>
+<a name="Scripts"></a><h2><span class="editsection">[<a href="/index.php?title=Maki_Reference&amp;action=edit&amp;section=22" title="Edit section: Scripts">edit</a>]</span> <span class="mw-headline"> <a href="/index.php?title=Maki_Scripts" title="Maki Scripts">Scripts</a> </span></h2>
+<ul><li> <a href="/index.php?title=Maki_Scripts#Drawer" title="Maki Scripts">Drawer</a>
+</li><li> <a href="/index.php?title=Maki_Scripts#Play2Pause" title="Maki Scripts">Play2Pause</a>
+</li><li> <a href="/index.php?title=Maki_Scripts#Animated_Seek" title="Maki Scripts">Animated Seek</a>
+</li></ul>
+<p>to be continued...
+</p>
+<!-- Saved in parser cache with key hscwiki:pcache:idhash:10-0!1!0!!en!2 and timestamp 20100313235009 -->
+<div class="printfooter">
+Retrieved from "<a href="http://wiki.skinconsortium.com/index.php?title=Maki_Reference">http://wiki.skinconsortium.com/index.php?title=Maki_Reference</a>"</div>
+						<!-- end content -->
+			<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+						 <li id="ca-nstab-main" class="selected"><a href="/index.php?title=Maki_Reference">Article</a></li>
+						 <li id="ca-talk" class="new"><a href="/index.php?title=Talk:Maki_Reference&amp;action=edit">Discussion</a></li>
+						 <li id="ca-edit"><a href="/index.php?title=Maki_Reference&amp;action=edit">Edit</a></li>
+						 <li id="ca-history"><a href="/index.php?title=Maki_Reference&amp;action=history">History</a></li>
+				</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/index.php?title=Special:Userlogin&amp;returnto=Maki_Reference">Log in / create account</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://www.skinconsortium.com/images/wiki/scwiki_logo2.png);" href="/index.php?title=Main_Page" title="Main Page"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class='portlet' id='p-navigation'>
+		<h5>Navigation</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage"><a href="/index.php?title=Main_Page">Main Page</a></li>
+				<li id="n-portal"><a href="/index.php?title=ScWiki:Community_Portal">Community portal</a></li>
+				<li id="n-currentevents"><a href="/index.php?title=Current_events">Current events</a></li>
+				<li id="n-recentchanges"><a href="/index.php?title=Special:Recentchanges">Recent changes</a></li>
+				<li id="n-randompage"><a href="/index.php?title=Special:Random">Random page</a></li>
+				<li id="n-help"><a href="/index.php?title=Help:Contents">Help</a></li>
+				<li id="n-sitesupport"><a href="/index.php?title=ScWiki:Site_support">Donations</a></li>
+			</ul>
+		</div>
+	</div>
+		<div class='portlet' id='p-Skin_consortium_site'>
+		<h5>Skin consortium site</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-SC-homepage"><a href="http://www.skinconsortium.com">SC homepage</a></li>
+				<li id="n-SC-forums"><a href="http://forums.skinconsortium.com">SC forums</a></li>
+			</ul>
+		</div>
+	</div>
+		<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/index.php?title=Special:Search" id="searchform"><div>
+				<input id="searchInput" name="search" type="text" accesskey="f" value="" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" />
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/index.php?title=Special:Whatlinkshere/Maki_Reference">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/index.php?title=Special:Recentchangeslinked/Maki_Reference">Related changes</a></li>
+<li id="t-upload"><a href="/index.php?title=Special:Upload">Upload file</a></li>
+<li id="t-specialpages"><a href="/index.php?title=Special:Specialpages">Special pages</a></li>
+				<li id="t-print"><a href="/index.php?title=Maki_Reference&amp;printable=yes">Printable version</a></li>				<li id="t-permalink"><a href="/index.php?title=Maki_Reference&amp;oldid=604">Permanent link</a></li>			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" /></a></div>
+			<ul id="f-list">
+				<li id="lastmod"> This page was last modified 10:13, 10 November 2009.</li>
+				<li id="viewcount">This page has been accessed 2,078 times.</li>
+				<li id="privacy"><a href="/index.php?title=ScWiki:Privacy_policy" title="ScWiki:Privacy policy">Privacy policy</a></li>
+				<li id="about"><a href="/index.php?title=ScWiki:About" title="ScWiki:About">About ScWiki</a></li>
+				<li id="disclaimer"><a href="/index.php?title=ScWiki:General_disclaimer" title="ScWiki:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+		
+	
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+</div>
+<!-- Served by wiki.skinconsortium.com in 0.421 secs. --></body></html>

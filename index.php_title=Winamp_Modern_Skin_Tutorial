@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="keywords" content="Winamp Modern Skin Tutorial,Making Winamp TSS,Winamp,Winamp Tutorial Contents" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="ScWiki (English)" />
+		<title>Winamp Modern Skin Tutorial - ScWiki</title>
+		<style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "/skins/monobook/main.css?42b"; /*]]>*/</style>
+		<link rel="stylesheet" type="text/css" media="print" href="/skins/common/commonPrint.css?42b" />
+		<link rel="stylesheet" type="text/css" media="handheld" href="/skins/monobook/handheld.css?42b" />
+		<!--[if lt IE 5.5000]><style type="text/css">@import "/skins/monobook/IE50Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 5.5000]><style type="text/css">@import "/skins/monobook/IE55Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 6]><style type="text/css">@import "/skins/monobook/IE60Fixes.css?42b";</style><![endif]-->
+		<!--[if IE 7]><style type="text/css">@import "/skins/monobook/IE70Fixes.css?42b";</style><![endif]-->
+		<!--[if lt IE 7]><script type="text/javascript" src="/skins/common/IEFixes.js?42b"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+		
+		<script type= "text/javascript">/*<![CDATA[*/
+var skin = "monobook";
+var stylepath = "/skins";
+var wgArticlePath = "/index.php?title=$1";
+var wgScriptPath = "";
+var wgServer = "http://wiki.skinconsortium.com";
+var wgCanonicalNamespace = "";
+var wgCanonicalSpecialPageName = false;
+var wgNamespaceNumber = 0;
+var wgPageName = "Winamp_Modern_Skin_Tutorial";
+var wgTitle = "Winamp Modern Skin Tutorial";
+var wgArticleId = "66";
+var wgIsArticle = true;
+var wgUserName = null;
+var wgUserLanguage = "en";
+var wgContentLanguage = "en";
+var wgBreakFrames = false;
+var wgCurRevisionId = "559";
+/*]]>*/</script>
+                
+		<script type="text/javascript" src="/skins/common/wikibits.js?42b"><!-- wikibits js --></script>
+		<script type="text/javascript" src="/index.php?title=-&amp;action=raw&amp;gen=js"><!-- site js --></script>
+		<style type="text/css">/*<![CDATA[*/
+@import "/index.php?title=MediaWiki:Common.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=MediaWiki:Monobook.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=-&action=raw&gen=css&maxage=18000";
+/*]]>*/</style>
+		<!-- Head Scripts -->
+			</head>
+<body  class="mediawiki ns-0 ltr page-Winamp_Modern_Skin_Tutorial">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<h1 class="firstHeading">Winamp Modern Skin Tutorial</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From ScWiki</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<table id="toc" class="toc" summary="Contents"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1"><a href="#Table_of_contents"><span class="tocnumber">1</span> <span class="toctext">Table of contents</span></a></li>
+<li class="toclevel-1"><a href="#Overview"><span class="tocnumber">2</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1"><a href="#How_to_use_this_tutorial"><span class="tocnumber">3</span> <span class="toctext">How to use this tutorial</span></a></li>
+<li class="toclevel-1"><a href="#What_you_need_to_start"><span class="tocnumber">4</span> <span class="toctext">What you need to start</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Text_editor"><span class="tocnumber">4.1</span> <span class="toctext">Text editor</span></a></li>
+<li class="toclevel-2"><a href="#Graphics_editor"><span class="tocnumber">4.2</span> <span class="toctext">Graphics editor</span></a></li>
+<li class="toclevel-2"><a href="#Archive_Utility"><span class="tocnumber">4.3</span> <span class="toctext">Archive Utility</span></a></li>
+<li class="toclevel-2"><a href="#The_starter_skin_.28TSS.29_.28optional.29"><span class="tocnumber">4.4</span> <span class="toctext">The starter skin (TSS) (optional)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#How_to_start"><span class="tocnumber">5</span> <span class="toctext">How to start</span></a></li>
+<li class="toclevel-1"><a href="#Let.27s_start"><span class="tocnumber">6</span> <span class="toctext">Let's start</span></a></li>
+<li class="toclevel-1"><a href="#FAQ"><span class="tocnumber">7</span> <span class="toctext">FAQ</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Adding_an_Album_Art_Window"><span class="tocnumber">7.1</span> <span class="toctext">Adding an Album Art Window</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+<a name="Table_of_contents"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skin_Tutorial&amp;action=edit&amp;section=1" title="Edit section: Table of contents">edit</a>]</span> <span class="mw-headline">Table of contents</span></h2>
+<p><a href="/index.php?title=Winamp_Tutorial_Contents" title="Winamp Tutorial Contents">Go to table of contents</a>
+</p>
+<a name="Overview"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skin_Tutorial&amp;action=edit&amp;section=2" title="Edit section: Overview">edit</a>]</span> <span class="mw-headline">Overview</span></h2>
+<p>This tutorial will make skinning modern skins even easier than skinning classic skins. Some of the more experience skinners might see that a different folder structure is used than most skins out there. The reason for this is that we want to make it easier and keep the more advance stuff separate and make the more advance stuff easier to edit quickly.
+</p><p>Anyone can make a skin! I recommend that you’re at least 14years old before you try this since there is a little logic needed. But you don’t have to be a programmer. You also don’t have to be a xml expert. XML is very easy to understand so you’ll feel right at home within a few minutes of looking through a few of the files.
+</p><p>All you need is time and an idea… and this guide obviously&nbsp;;)
+</p>
+<a name="How_to_use_this_tutorial"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skin_Tutorial&amp;action=edit&amp;section=3" title="Edit section: How to use this tutorial">edit</a>]</span> <span class="mw-headline">How to use this tutorial</span></h2>
+<p>The tutorial will be organized in such a way:
+</p>
+<ul><li> Every step is a new page;
+</li></ul>
+<ul><li> There is a <a href="/index.php?title=Winamp_Tutorial_Contents" title="Winamp Tutorial Contents"> table of contents</a>;
+</li></ul>
+<ul><li> Every step leads to the next step (link on the bottom).
+</li></ul>
+<a name="What_you_need_to_start"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skin_Tutorial&amp;action=edit&amp;section=4" title="Edit section: What you need to start">edit</a>]</span> <span class="mw-headline">What you need to start</span></h2>
+<p>You'll need the following to make a modern skin (<i>"Recommended"</i> means that it is used in tutorial so it will appear in screenshots):
+</p>
+<a name="Text_editor"></a><h3><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skin_Tutorial&amp;action=edit&amp;section=5" title="Edit section: Text editor">edit</a>]</span> <span class="mw-headline"> Text editor </span></h3>
+<ul><li> Notepad
+</li><li> EditPlus (Recommended)
+</li><li> Notepad++
+</li><li> et cetera
+</li></ul>
+<a name="Graphics_editor"></a><h3><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skin_Tutorial&amp;action=edit&amp;section=6" title="Edit section: Graphics editor">edit</a>]</span> <span class="mw-headline"> Graphics editor </span></h3>
+<ul><li> Paint Brush
+</li><li> Corel Paint Shop Pro
+</li><li> Adobe PhotoShop (Recommended)
+</li><li> Gimp
+</li><li> et cetera
+</li></ul>
+<a name="Archive_Utility"></a><h3><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skin_Tutorial&amp;action=edit&amp;section=7" title="Edit section: Archive Utility">edit</a>]</span> <span class="mw-headline"> Archive Utility </span></h3>
+<ul><li> Winzip
+</li><li> WinRar (Recommended)
+</li><li> 7Zip
+</li><li> et cetera
+</li></ul>
+<a name="The_starter_skin_.28TSS.29_.28optional.29"></a><h3><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skin_Tutorial&amp;action=edit&amp;section=8" title="Edit section: The starter skin (TSS) (optional)">edit</a>]</span> <span class="mw-headline"> The starter skin (TSS) (optional)</span></h3>
+<p>This skin is a bunch of files to help you get started. Even experienced skinners make use of a starter skin to skip all the boring stuff and get started. We wouldn't use TSS in this tutorial, but we will make it instead as our first step.
+(In <b>bold</b> is the stuff I recommend)
+</p><p>The starter skin can be downloaded here:
+</p><p><a href="/images/8/8f/TSS.wal" class="internal" title="TSS.wal">TSS.wal</a>
+</p>
+<a name="How_to_start"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skin_Tutorial&amp;action=edit&amp;section=9" title="Edit section: How to start">edit</a>]</span> <span class="mw-headline">How to start</span></h2>
+<p>First of all, we need to think in mind what we want <a href="/index.php?title=Winamp" title="Winamp">Winamp</a> to look like.
+</p><p><a href="/index.php?title=Image:Core-X6_prev.jpg" class="image" title="Our future skin preview"><img src="/images/1/1e/Core-X6_prev.jpg" alt="Our future skin preview" width="351" height="289" longdesc="/index.php?title=Image:Core-X6_prev.jpg" /></a>
+</p><p>Then we need to draw it. It is a carefull procedure, as you shouldn't make a picture of your skin, but many pictures representing every element. It will help coding. Try making clear, contrast layout. Draw your lines in such a way, that they don't blur or don't have other negative effects. The skin is not a three day's work, so try hard and think before you do a new line.
+</p><p><a href="/index.php?title=Image:Correct_lines.jpg" class="image" title="Correct and incorrect lines"><img src="/images/6/6a/Correct_lines.jpg" alt="Correct and incorrect lines" width="657" height="376" longdesc="/index.php?title=Image:Correct_lines.jpg" /></a>
+</p><p>These lines have equal width (2px), but the first looks better because it is positioned correctly.
+</p><p>It is quite important to make images in such a way that different colours appear on different images. It is important when making color themes:
+</p><p><a href="/index.php?title=Image:Color_themes.jpg" class="image" title="Image:Color themes.jpg"><img src="/images/f/f6/Color_themes.jpg" alt="Image:Color themes.jpg" width="326" height="214" longdesc="/index.php?title=Image:Color_themes.jpg" /></a>
+</p><p>When all the images are ready, it's time to start coding.
+</p>
+<a name="Let.27s_start"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skin_Tutorial&amp;action=edit&amp;section=10" title="Edit section: Let's start">edit</a>]</span> <span class="mw-headline"> Let's start </span></h2>
+<p><a href="/index.php?title=Making_Winamp_TSS" title="Making Winamp TSS">Making Winamp TSS</a>
+</p>
+<a name="FAQ"></a><h2><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skin_Tutorial&amp;action=edit&amp;section=11" title="Edit section: FAQ">edit</a>]</span> <span class="mw-headline"> FAQ </span></h2>
+<a name="Adding_an_Album_Art_Window"></a><h3><span class="editsection">[<a href="/index.php?title=Winamp_Modern_Skin_Tutorial&amp;action=edit&amp;section=12" title="Edit section: Adding an Album Art Window">edit</a>]</span> <span class="mw-headline">Adding an Album Art Window</span></h3>
+<p>It's very easy to add the cover art feature to old (mandatory modern) skins
+</p><p>1. First create a new file containing this&nbsp;:
+</p><p>&lt;container id="winamp.albumart" name="Album Art" default_visible="0" nomenu="1" &gt;
+</p><p>&lt;groupdef id="albumart.content.group"&gt;
+</p><p>&lt;AlbumArt fitparent="1" move="1" /&gt;
+</p><p>&lt;/groupdef&gt;
+</p><p>&lt;layout id="normal" minimum_w="60" minimum_h="60" h="164" w="164"&gt;
+&lt;Wasabi:Standardframe:NoStatus x="0" y="0" w="0" h="0" relatw="1" relath="1" content="albumart.content.group" /&gt;
+</p><p>&lt;/layout&gt;
+</p><p>&lt;/container&gt;
+</p><p>&lt;script file="scripts/albumart.maki" /&gt;
+</p><p>2. Save it with the name albumart.xml in the xml dir of the skin
+</p><p>3. Copy albumart.maki to the script dir of the skin (this file can be found in any skin featuring the album art function. If you can't find it elsewhere, load one of my skins, like Tewnz or one of the NEO)
+</p><p>4. Edit skin.xml in the root dir of the skin and add this line after &lt;include ...etc lines&nbsp;:
+&lt;include file="xml/albumart.xml"/&gt;
+</p><p>5. Select the skin or refresh it with F5 if it's in use.
+</p><p>The cover window is now available by right clicking in the main window.
+</p><p>If it doesn't work, check the first lines of the skin.xml file. This should be&nbsp;:
+</p><p>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;WinampAbstractionLayer version="1.31"&gt;
+</p><p>or higher version
+</p>
+<!-- Saved in parser cache with key scwiki:pcache:idhash:66-0!1!0!!en!2 and timestamp 20091129065946 -->
+<div class="printfooter">
+Retrieved from "<a href="http://wiki.skinconsortium.com/index.php?title=Winamp_Modern_Skin_Tutorial">http://wiki.skinconsortium.com/index.php?title=Winamp_Modern_Skin_Tutorial</a>"</div>
+						<!-- end content -->
+			<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+						 <li id="ca-nstab-main" class="selected"><a href="/index.php?title=Winamp_Modern_Skin_Tutorial">Article</a></li>
+						 <li id="ca-talk"><a href="/index.php?title=Talk:Winamp_Modern_Skin_Tutorial">Discussion</a></li>
+						 <li id="ca-edit"><a href="/index.php?title=Winamp_Modern_Skin_Tutorial&amp;action=edit">Edit</a></li>
+						 <li id="ca-history"><a href="/index.php?title=Winamp_Modern_Skin_Tutorial&amp;action=history">History</a></li>
+				</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/index.php?title=Special:Userlogin&amp;returnto=Winamp_Modern_Skin_Tutorial">Log in / create account</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://www.skinconsortium.com/images/wiki/scwiki_logo2.png);" href="/index.php?title=Main_Page" title="Main Page"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class='portlet' id='p-navigation'>
+		<h5>Navigation</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage"><a href="/index.php?title=Main_Page">Main Page</a></li>
+				<li id="n-portal"><a href="/index.php?title=ScWiki:Community_Portal">Community portal</a></li>
+				<li id="n-currentevents"><a href="/index.php?title=Current_events">Current events</a></li>
+				<li id="n-recentchanges"><a href="/index.php?title=Special:Recentchanges">Recent changes</a></li>
+				<li id="n-randompage"><a href="/index.php?title=Special:Random">Random page</a></li>
+				<li id="n-help"><a href="/index.php?title=Help:Contents">Help</a></li>
+				<li id="n-sitesupport"><a href="/index.php?title=ScWiki:Site_support">Donations</a></li>
+			</ul>
+		</div>
+	</div>
+		<div class='portlet' id='p-Skin_consortium_site'>
+		<h5>Skin consortium site</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-SC-homepage"><a href="http://www.skinconsortium.com">SC homepage</a></li>
+				<li id="n-SC-forums"><a href="http://forums.skinconsortium.com">SC forums</a></li>
+			</ul>
+		</div>
+	</div>
+		<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/index.php?title=Special:Search" id="searchform"><div>
+				<input id="searchInput" name="search" type="text" accesskey="f" value="" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" />
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/index.php?title=Special:Whatlinkshere/Winamp_Modern_Skin_Tutorial">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/index.php?title=Special:Recentchangeslinked/Winamp_Modern_Skin_Tutorial">Related changes</a></li>
+<li id="t-upload"><a href="/index.php?title=Special:Upload">Upload file</a></li>
+<li id="t-specialpages"><a href="/index.php?title=Special:Specialpages">Special pages</a></li>
+				<li id="t-print"><a href="/index.php?title=Winamp_Modern_Skin_Tutorial&amp;printable=yes">Printable version</a></li>				<li id="t-permalink"><a href="/index.php?title=Winamp_Modern_Skin_Tutorial&amp;oldid=559">Permanent link</a></li>			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" /></a></div>
+			<ul id="f-list">
+				<li id="lastmod"> This page was last modified 18:47, 24 April 2009.</li>
+				<li id="viewcount">This page has been accessed 2,680 times.</li>
+				<li id="privacy"><a href="/index.php?title=ScWiki:Privacy_policy" title="ScWiki:Privacy policy">Privacy policy</a></li>
+				<li id="about"><a href="/index.php?title=ScWiki:About" title="ScWiki:About">About ScWiki</a></li>
+				<li id="disclaimer"><a href="/index.php?title=ScWiki:General_disclaimer" title="ScWiki:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+		
+	
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+</div>
+<!-- Served by wiki.skinconsortium.com in 0.863 secs. --></body></html>
